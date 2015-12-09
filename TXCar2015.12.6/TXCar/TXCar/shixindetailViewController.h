@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ShiXinModel.h"
 @interface shixindetailViewController : UIViewController
+
+@property (nonatomic,strong) ShiXinModel *model;
 
 @end

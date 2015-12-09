@@ -9,6 +9,10 @@
 #import "susongdetailViewController.h"
 
 @interface susongdetailViewController ()<UITableViewDelegate,UITableViewDataSource>
+{
+    NSArray *_titles;
+    
+}
 @property (weak, nonatomic) IBOutlet UITableView *susong_tableview;
 
 @end
@@ -18,8 +22,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"诉讼详情";
-    self.automaticallyAdjustsScrollViewInsets=NO;
-    // Do any additional setup after loading the view.
+    _titles = @[@"被执行人",@"被执行人证号",@"执行标的",@"执行法院",@"立案时间",@"案号"];
+    
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    
+  
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,7 +35,7 @@
 }
 //段数
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 6;
+    return _titles.count;
 }
 //行数
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -61,74 +68,82 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:
 (NSIndexPath *)indexPath {
-    if(indexPath.section == 0 && indexPath.row == 0)
-    {
-        
+    
         static NSString *SimpleTableIdentifier = @"cell1";
         
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SimpleTableIdentifier];
         if (cell==nil) {
             cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleTableIdentifier];
         }
-        //    UILabel * lable12=(UILabel*)[cell viewWithTag:1];
-        //
-        //
-        //    UILabel * lable1=(UILabel*)[cell viewWithTag:2];
-        //
-        //
-        //
-        //    UILabel * lable3=(UILabel*)[cell viewWithTag:3];
+    
+       dispatch_async(dispatch_get_main_queue(), ^{
+          
+           UILabel *titleLabel = (UILabel*)[cell viewWithTag:99];
+           
+           titleLabel.text = [_titles objectAtIndex:indexPath.section];
+           
+           UILabel *contentLabel = (UILabel*)[cell viewWithTag:100];
+           
+           NSString *_content = nil;
+           
+           switch (indexPath.section) {
+               case 0:
+               {
+                   _content = _model.Name;
+               }
+                   break;
+                case 1:
+               {
+                   _content = [NSString stringWithFormat:@"%ld",(long)_model.Sourceid];
+               }
+                   break;
+                case 2:
+               {
+                   _content = _model.Biaodi;
+                   
+               }
+                   break;
+                case 3:
+               {
+                   _content = _model.ExecuteGov;
+               }
+                   break;
+                case 4:
+               {
+                   NSString *dateStr = _model.Liandate;
+                   
+                   if (dateStr.length > 10) {
+                       
+                       dateStr = [dateStr substringToIndex:10];
+                       
+                       
+                   }
+                   
+                   _content = dateStr;
+                   
+               }
+                   break;
+                case 5:
+               {
+                   _content = _model.Anno;
+                   
+               }
+                   break;
+                   
+                   
+                   
+                   
+               default:
+                   break;
+           }
+           
+           
+           
+           contentLabel.text = _content;
+           
+           
+       });
         return cell;
-    }else if(indexPath.section == 1 && indexPath.row == 0){
-        static NSString *SimpleTableIdentifier = @"cell2";
-        
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SimpleTableIdentifier];
-        if (cell==nil) {
-            cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleTableIdentifier];
-        }
-        
-        return cell;
-        
-    }else if(indexPath.section == 2 && indexPath.row == 0){
-        static NSString *SimpleTableIdentifier = @"cell3";
-        
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SimpleTableIdentifier];
-        if (cell==nil) {
-            cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleTableIdentifier];
-        }
-        
-        return cell;
-        
-    }else if(indexPath.section == 3 && indexPath.row == 0){
-        static NSString *SimpleTableIdentifier = @"cell4";
-        
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SimpleTableIdentifier];
-        if (cell==nil) {
-            cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleTableIdentifier];
-        }
-        
-        return cell;
-        
-    }else if(indexPath.section == 4 && indexPath.row == 0){
-        static NSString *SimpleTableIdentifier = @"cell5";
-        
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SimpleTableIdentifier];
-        if (cell==nil) {
-            cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleTableIdentifier];
-        }
-        
-        return cell;
-        
-    }else {
-        static NSString *SimpleTableIdentifier = @"cell6";
-        
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SimpleTableIdentifier];
-        if (cell==nil) {
-            cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleTableIdentifier];
-        }
-        
-        return cell;
-        
-    }}
 
+}
 @end

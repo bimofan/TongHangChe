@@ -813,7 +813,19 @@
         //    manager.responseSerializer = [AFJSONResponseSerializer serializer];
         //    //申明请求的数据是json类型
         //    manager.requestSerializer=[AFJSONRequestSerializer serializer];
-        NSDictionary *parameters = @{@"lat":aaa,@"lon":bbb,@"addr":[placemark.addressDictionary objectForKey:@"Name"],@"username":[[BmobUser getCurrentUser]username],@"from":@"IOS"};
+        
+            NSString *addressName = [placemark.addressDictionary objectForKey:@"Name"];
+            NSString *userName = [BmobUser getCurrentUser].username;
+            
+            if (!addressName) {
+                
+                addressName = @"";
+            }
+            if (!userName) {
+                
+                userName = @"";
+            }
+        NSDictionary *parameters = @{@"lat":aaa,@"lon":bbb,@"addr":addressName,@"username":userName,@"from":@"IOS"};
         [manager POST:@"http://tonghangche.com/system/mobile/savePositionInfo"parameters:parameters
               success:^(AFHTTPRequestOperation *operation,id responseObject) {
                   if([[responseObject objectForKey:@"code"] intValue]==1){

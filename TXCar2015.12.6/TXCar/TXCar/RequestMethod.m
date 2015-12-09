@@ -7,6 +7,7 @@
 //
 
 #import "RequestMethod.h"
+#import "MyProgressHUD.h"
 
 @implementation RequestMethod
 
@@ -14,10 +15,13 @@
 {
     
     
+    [MyProgressHUD showProgress];
+    
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     
-    
     [manager GET:url parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        [MyProgressHUD dismiss];
         
         NSLog(@"sucess,url:%@,params:%@, response:%@",url,params,operation.responseString);
         
@@ -32,6 +36,9 @@
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
        
+        [MyProgressHUD dismiss];
+        
+        
         NSLog(@"fail,url:%@,params:%@, response:%@",url,params,operation.responseString);
         
         

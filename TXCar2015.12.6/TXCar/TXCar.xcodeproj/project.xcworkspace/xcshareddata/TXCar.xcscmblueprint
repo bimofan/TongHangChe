@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F025799424A055A7ED65D33A4797E0639CC44E11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "fef52269-97d4-bd67-724f-ce57b7db7bff++6040" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F025799424A055A7ED65D33A4797E0639CC44E11" : 0,
+    "fef52269-97d4-bd67-724f-ce57b7db7bff++6040" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9F9BD6EF-7FD6-47EE-82AA-DB6E03EB2750",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F025799424A055A7ED65D33A4797E0639CC44E11" : "TongHangChe\/",
+    "fef52269-97d4-bd67-724f-ce57b7db7bff++6040" : "TongHangChe\/TXCar2015.12.6\/TXCar\/SDPhotoBrowser\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TXCar",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TXCar2015.12.6\/TXCar\/TXCar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bimofan\/TongHangChe.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F025799424A055A7ED65D33A4797E0639CC44E11"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/supernoval\/QianShou",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "fef52269-97d4-bd67-724f-ce57b7db7bff++6040"
+    }
+  ]
+}

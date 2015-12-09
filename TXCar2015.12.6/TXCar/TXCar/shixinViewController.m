@@ -9,6 +9,9 @@
 #import "shixinViewController.h"
 #import "shixindetailViewController.h"
 #import "susongdetailViewController.h"
+#import "MJRefresh.h"
+#import "ShiXinModel.h"
+
 @interface shixinViewController ()<UITextFieldDelegate,UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate>
 {
     NSInteger pageIndex;
@@ -58,7 +61,10 @@
     UIBarButtonItem *leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:refreshButton];
     self.navigationItem.rightBarButtonItem = leftBarButtonItem;
    
-
+    
+    [_tab_tableviwe addFooterWithTarget:self action:@selector(footerRefresh)];
+    
+     [_searchBar becomeFirstResponder];
     
 }
 
@@ -67,8 +73,16 @@
     [super viewWillAppear:animated];
     
     
-    [_searchBar becomeFirstResponder];
+   
     
+    
+}
+
+-(void)footerRefresh
+{
+    pageIndex ++;
+    
+    [self getData];
     
 }
 
@@ -88,6 +102,7 @@
     
    [_searchBar resignFirstResponder];
     
+    [self getData];
     
     
     
@@ -125,7 +140,7 @@
     }
     
     
-    NSDictionary *oneDict = [_dataSource objectAtIndex:indexPath.section];
+    ShiXinModel *model  = [_dataSource objectAtIndex:indexPath.section];
     
     dispatch_async(dispatch_get_main_queue(), ^{
         
@@ -137,10 +152,10 @@
         
         UIImageView *image = (UIImageView*)[cell viewWithTag:4];
         
+      
+        NSString *dateStr = model.Liandate;
         
-        NSString *name = [oneDict objectForKey:@"name"];
-        NSString *Anno = [oneDict objectForKey:@"Anno"];
-        NSString *dateStr = [oneDict objectForKey:@"Liandate"];
+
         
         if (dateStr.length > 10) {
             
@@ -148,7 +163,14 @@
             
         }
         
-        if(_a==2){
+        
+        lable12.text = model.Name;
+        lable1.text = model.Anno;
+        lable3.text = dateStr;
+        
+   
+        
+        if(model.type==2){
             [image setImage:[UIImage imageNamed:@"susong_biaoshi"]];
         }else{
             [image setImage:[UIImage imageNamed:@"shixin_biaoshi"]];
@@ -163,15 +185,24 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];//选中后的反显颜色即刻消失
-   if(_a==1){
+  
+    ShiXinModel *model = [_dataSource objectAtIndex:indexPath.section];
+    
+    
+    if(model.type==1){
     
     shixindetailViewController *oneC = [self.storyboard instantiateViewControllerWithIdentifier:@"shixindetail"];
     self.navigationItem.backBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleBordered target:nil action:nil];
+       
+        oneC.model = model;
+        
     [self.navigationController pushViewController:oneC animated:YES];
     }else{
         
     susongdetailViewController *oneC = [self.storyboard instantiateViewControllerWithIdentifier:@"susongdetail"];
         self.navigationItem.backBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleBordered target:nil action:nil];
+        oneC.model = model;
+        
         [self.navigationController pushViewController:oneC animated:YES];
 
     }
@@ -188,6 +219,8 @@
         
         return;
     }
+    
+    [searchBar resignFirstResponder];
     
     [self getData];
     
@@ -216,6 +249,8 @@
     
     [RequestMethod requestWithURL:header params:param results:^(BOOL success, id results) {
        
+        [_tab_tableviwe footerEndRefreshing];
+        
         
         if (success) {
             
@@ -229,14 +264,50 @@
                 
                 NSArray *_shixinitems = [ShiXinResult objectForKey:@"Items"];
                 
+                NSMutableArray *_muShiXin = [[NSMutableArray alloc]init];
+                
+                for (int i = 0; i < _shixinitems.count ; i ++) {
+                    
+                    NSDictionary *_temDict = [_shixinitems objectAtIndex:i];
+                    
+                    ShiXinModel  *_model = [[ShiXinModel alloc]init];
+                    
+                    [_model setValuesForKeysWithDictionary:_temDict];
+                    
+                    _model.type = 1;
+                    
+                    [_muShiXin addObject:_model];
+                    
+                    
+                    
+                    
+                }
+                
                 NSDictionary *ZhiXingResult = [Result objectForKey:@"ZhiXingResult"];
                 
                 NSArray *_zhixingItems = [ZhiXingResult objectForKey:@"Items"];
                 
+                NSMutableArray *_muzhixing = [[NSMutableArray alloc]init];
+                for (int i = 0 ; i < _zhixingItems.count; i ++) {
+                    
+                    NSDictionary *dict = [_zhixingItems objectAtIndex:i];
+                    
+                    ShiXinModel  *_model = [[ShiXinModel alloc]init];
+                    
+                    [_model setValuesForKeysWithDictionary:dict];
+                    
+                    _model.type = 2;
+                    
+                    [_muzhixing addObject:_model];
+                    
+                    
+                }
                 
-                [_dataSource addObjectsFromArray:_shixinitems];
                 
-                [_dataSource addObjectsFromArray:_zhixingItems];
+                
+                [_dataSource addObjectsFromArray:_muShiXin];
+                
+                [_dataSource addObjectsFromArray:_muzhixing];
                 
                 [_tab_tableviwe reloadData];
                 
