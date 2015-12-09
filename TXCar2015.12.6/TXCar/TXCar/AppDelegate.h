@@ -12,6 +12,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 @property(nonatomic,copy)NSString *qianqianqian;
+@property (nonatomic,strong) NSArray *cityArray;
 
 @end
 

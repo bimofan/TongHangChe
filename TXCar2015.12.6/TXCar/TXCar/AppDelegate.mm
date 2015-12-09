@@ -38,6 +38,8 @@
 #import <BmobSDK/BmobUser.h>
 #import "sys/utsname.h"
 #import "iPhone.h"
+#import "Constants.h"
+
 @interface AppDelegate ()<PassValueDelegate>
 
 @end
@@ -192,6 +194,15 @@ void UncaughtExceptionHandler(NSException *exception) {
     }
     
     
+    //先加载城市
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"JiSuCity" ofType:@"json"];
+    
+    NSData *data = [NSData dataWithContentsOfFile:path];
+    
+    
+    _cityArray = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+    
+    NSLog(@"citys:%@",_cityArray);
     
     
     return YES;

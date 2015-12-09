@@ -1,0 +1,2276 @@
+[
+ {
+     "province": "北京",
+     "lsprefix": "京",
+     "lsnum": "",
+     "carorg": "beijing",
+     "frameno": "0",
+     "engineno": "100"
+ },
+ {
+     "province": "安徽",
+     "lsprefix": "皖",
+     "lsnum": "",
+     "carorg": "anhui",
+     "frameno": "6",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "安庆",
+         "lsprefix": "皖",
+         "lsnum": "H",
+         "carorg": "anqing",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "蚌埠",
+         "lsprefix": "皖",
+         "lsnum": "C",
+         "carorg": "bengbu",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "巢湖",
+         "lsprefix": "皖",
+         "lsnum": "Q"
+     },
+     {
+         "city": "池州",
+         "lsprefix": "皖",
+         "lsnum": "R"
+     },
+     {
+         "city": "滁州",
+         "lsprefix": "皖",
+         "lsnum": "M"
+     },
+     {
+         "city": "阜阳",
+         "lsprefix": "皖",
+         "lsnum": "K"
+     },
+     {
+         "city": "淮北",
+         "lsprefix": "皖",
+         "lsnum": "F",
+         "carorg": "huaibei",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "淮南",
+         "lsprefix": "皖",
+         "lsnum": "D",
+         "carorg": "huainan",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "黄山",
+         "lsprefix": "皖",
+         "lsnum": "J"
+     },
+     {
+         "city": "六安",
+         "lsprefix": "皖",
+         "lsnum": "N"
+     },
+     {
+         "city": "马鞍山",
+         "lsprefix": "皖",
+         "lsnum": "E"
+     },
+     {
+         "city": "宿州",
+         "lsprefix": "皖",
+         "lsnum": "L",
+         "carorg": "suzhoua",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "铜陵",
+         "lsprefix": "皖",
+         "lsnum": "G"
+     },
+     {
+         "city": "芜湖",
+         "lsprefix": "皖",
+         "lsnum": "B"
+     },
+     {
+         "city": "宣城",
+         "lsprefix": "皖",
+         "lsnum": "P",
+         "carorg": "xuancheng",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "亳州",
+         "lsprefix": "皖",
+         "lsnum": "S",
+         "carorg": "bozhou",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "合肥",
+         "lsprefix": "皖",
+         "lsnum": "A"
+     }
+     ]
+ },
+ {
+     "province": "福建",
+     "lsprefix": "闽",
+     "lsnum": "",
+     "carorg": "fujian",
+     "frameno": "4",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "福州",
+         "lsprefix": "闽",
+         "lsnum": "A",
+         "carorg": "fuzhou",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "龙岩",
+         "lsprefix": "闽",
+         "lsnum": "F"
+     },
+     {
+         "city": "南平",
+         "lsprefix": "闽",
+         "lsnum": "H"
+     },
+     {
+         "city": "宁德",
+         "lsprefix": "闽",
+         "lsnum": "J"
+     },
+     {
+         "city": "莆田",
+         "lsprefix": "闽",
+         "lsnum": "B"
+     },
+     {
+         "city": "泉州",
+         "lsprefix": "闽",
+         "lsnum": "C"
+     },
+     {
+         "city": "三明",
+         "lsprefix": "闽",
+         "lsnum": "G"
+     },
+     {
+         "city": "厦门",
+         "lsprefix": "闽",
+         "lsnum": "D",
+         "carorg": "xiamen",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "漳州",
+         "lsprefix": "闽",
+         "lsnum": "E"
+     }
+     ]
+ },
+ {
+     "province": "甘肃",
+     "lsprefix": "甘",
+     "lsnum": "",
+     "carorg": "gansu",
+     "frameno": "100",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "兰州",
+         "lsprefix": "甘",
+         "lsnum": "A"
+     },
+     {
+         "city": "白银",
+         "lsprefix": "甘",
+         "lsnum": "D"
+     },
+     {
+         "city": "定西",
+         "lsprefix": "甘",
+         "lsnum": "J"
+     },
+     {
+         "city": "甘南",
+         "lsprefix": "甘",
+         "lsnum": "P"
+     },
+     {
+         "city": "嘉峪关",
+         "lsprefix": "甘",
+         "lsnum": "B"
+     },
+     {
+         "city": "金昌",
+         "lsprefix": "甘",
+         "lsnum": "C"
+     },
+     {
+         "city": "酒泉",
+         "lsprefix": "甘",
+         "lsnum": "F"
+     },
+     {
+         "city": "临夏",
+         "lsprefix": "甘",
+         "lsnum": "N"
+     },
+     {
+         "city": "陇南",
+         "lsprefix": "甘",
+         "lsnum": "K"
+     },
+     {
+         "city": "平凉",
+         "lsprefix": "甘",
+         "lsnum": "L"
+     },
+     {
+         "city": "庆阳",
+         "lsprefix": "甘",
+         "lsnum": "M"
+     },
+     {
+         "city": "天水",
+         "lsprefix": "甘",
+         "lsnum": "E"
+     },
+     {
+         "city": "武威",
+         "lsprefix": "甘",
+         "lsnum": "H"
+     },
+     {
+         "city": "张掖",
+         "lsprefix": "甘",
+         "lsnum": "G"
+     }
+     ]
+ },
+ {
+     "province": "广东",
+     "lsprefix": "粤",
+     "lsnum": "",
+     "carorg": "guangdong",
+     "frameno": "6",
+     "engineno": "4",
+     "list": [
+     {
+         "city": "广州",
+         "lsprefix": "粤",
+         "lsnum": "A"
+     },
+     {
+         "city": "深圳",
+         "lsprefix": "粤",
+         "lsnum": "B",
+         "carorg": "shenzhen",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "潮州",
+         "lsprefix": "粤",
+         "lsnum": "U"
+     },
+     {
+         "city": "东莞",
+         "lsprefix": "粤",
+         "lsnum": "S"
+     },
+     {
+         "city": "佛山",
+         "lsprefix": "粤",
+         "lsnum": "E"
+     },
+     {
+         "city": "河源",
+         "lsprefix": "粤",
+         "lsnum": "P"
+     },
+     {
+         "city": "惠州",
+         "lsprefix": "粤",
+         "lsnum": "L",
+         "carorg": "huizhou",
+         "frameno": "6",
+         "engineno": "4"
+     },
+     {
+         "city": "江门",
+         "lsprefix": "粤",
+         "lsnum": "J",
+         "carorg": "jiangmen",
+         "frameno": "0",
+         "engineno": "6"
+     },
+     {
+         "city": "揭阳",
+         "lsprefix": "粤",
+         "lsnum": "V"
+     },
+     {
+         "city": "茂名",
+         "lsprefix": "粤",
+         "lsnum": "K"
+     },
+     {
+         "city": "梅州",
+         "lsprefix": "粤",
+         "lsnum": "M"
+     },
+     {
+         "city": "清远",
+         "lsprefix": "粤",
+         "lsnum": "R"
+     },
+     {
+         "city": "汕头",
+         "lsprefix": "粤",
+         "lsnum": "D"
+     },
+     {
+         "city": "汕尾",
+         "lsprefix": "粤",
+         "lsnum": "N"
+     },
+     {
+         "city": "韶关",
+         "lsprefix": "粤",
+         "lsnum": "F"
+     },
+     {
+         "city": "阳江",
+         "lsprefix": "粤",
+         "lsnum": "Q"
+     },
+     {
+         "city": "云浮",
+         "lsprefix": "粤",
+         "lsnum": "W"
+     },
+     {
+         "city": "湛江",
+         "lsprefix": "粤",
+         "lsnum": "G"
+     },
+     {
+         "city": "肇庆",
+         "lsprefix": "粤",
+         "lsnum": "H"
+     },
+     {
+         "city": "中山",
+         "lsprefix": "粤",
+         "lsnum": "T",
+         "carorg": "zhongshan",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "珠海",
+         "lsprefix": "粤",
+         "lsnum": "C",
+         "carorg": "zhuhai",
+         "frameno": "0",
+         "engineno": "4"
+     }
+     ]
+ },
+ {
+     "province": "广西",
+     "lsprefix": "桂",
+     "lsnum": "",
+     "list": [
+     {
+         "city": "南宁",
+         "lsprefix": "桂",
+         "lsnum": "A"
+     },
+     {
+         "city": "桂林",
+         "lsprefix": "桂",
+         "lsnum": "H"
+     },
+     {
+         "city": "百色",
+         "lsprefix": "桂",
+         "lsnum": "L"
+     },
+     {
+         "city": "北海",
+         "lsprefix": "桂",
+         "lsnum": "E"
+     },
+     {
+         "city": "崇左",
+         "lsprefix": "桂",
+         "lsnum": "F"
+     },
+     {
+         "city": "防城港",
+         "lsprefix": "桂",
+         "lsnum": "P"
+     },
+     {
+         "city": "贵港",
+         "lsprefix": "桂",
+         "lsnum": "R"
+     },
+     {
+         "city": "河池",
+         "lsprefix": "桂",
+         "lsnum": "M"
+     },
+     {
+         "city": "贺州",
+         "lsprefix": "桂",
+         "lsnum": "J",
+         "carorg": "hezhou",
+         "frameno": "0",
+         "engineno": "0"
+     },
+     {
+         "city": "来宾",
+         "lsprefix": "桂",
+         "lsnum": "G"
+     },
+     {
+         "city": "柳州",
+         "lsprefix": "桂",
+         "lsnum": "B"
+     },
+     {
+         "city": "钦州",
+         "lsprefix": "桂",
+         "lsnum": "N"
+     },
+     {
+         "city": "梧州",
+         "lsprefix": "桂",
+         "lsnum": "D"
+     },
+     {
+         "city": "玉林",
+         "lsprefix": "桂",
+         "lsnum": "K"
+     }
+     ]
+ },
+ {
+     "province": "贵州",
+     "lsprefix": "贵",
+     "lsnum": "",
+     "carorg": "guizhou",
+     "frameno": "0",
+     "engineno": "6",
+     "list": [
+     {
+         "city": "贵阳",
+         "lsprefix": "贵",
+         "lsnum": "A"
+     },
+     {
+         "city": "安顺",
+         "lsprefix": "贵",
+         "lsnum": "G"
+     },
+     {
+         "city": "毕节",
+         "lsprefix": "贵",
+         "lsnum": "F"
+     },
+     {
+         "city": "六盘水",
+         "lsprefix": "贵",
+         "lsnum": "B"
+     },
+     {
+         "city": "黔东南",
+         "lsprefix": "贵",
+         "lsnum": "H"
+     },
+     {
+         "city": "黔南",
+         "lsprefix": "贵",
+         "lsnum": "J"
+     },
+     {
+         "city": "黔西南",
+         "lsprefix": "贵",
+         "lsnum": "E"
+     },
+     {
+         "city": "铜仁",
+         "lsprefix": "贵",
+         "lsnum": "D"
+     },
+     {
+         "city": "遵义",
+         "lsprefix": "贵",
+         "lsnum": "C"
+     }
+     ]
+ },
+ {
+     "province": "海南",
+     "lsprefix": "琼",
+     "lsnum": "",
+     "carorg": "hainan",
+     "frameno": "4",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "海口",
+         "lsprefix": "琼",
+         "lsnum": "A"
+     },
+     {
+         "city": "三亚",
+         "lsprefix": "琼",
+         "lsnum": "B"
+     },
+     {
+         "city": "白沙",
+         "lsprefix": "琼",
+         "lsnum": "D"
+     },
+     {
+         "city": "保亭",
+         "lsprefix": "琼",
+         "lsnum": "D"
+     },
+     {
+         "city": "昌江",
+         "lsprefix": "琼",
+         "lsnum": "D"
+     },
+     {
+         "city": "澄迈县",
+         "lsprefix": "琼",
+         "lsnum": "D"
+     },
+     {
+         "city": "定安县",
+         "lsprefix": "琼",
+         "lsnum": "C"
+     },
+     {
+         "city": "东方",
+         "lsprefix": "琼",
+         "lsnum": "D"
+     },
+     {
+         "city": "乐东",
+         "lsprefix": "琼",
+         "lsnum": "D"
+     },
+     {
+         "city": "临高县",
+         "lsprefix": "琼",
+         "lsnum": "C"
+     },
+     {
+         "city": "陵水",
+         "lsprefix": "琼",
+         "lsnum": "D"
+     },
+     {
+         "city": "琼海",
+         "lsprefix": "琼",
+         "lsnum": "C"
+     },
+     {
+         "city": "琼中",
+         "lsprefix": "琼",
+         "lsnum": "D"
+     },
+     {
+         "city": "屯昌县",
+         "lsprefix": "琼",
+         "lsnum": "C"
+     },
+     {
+         "city": "万宁",
+         "lsprefix": "琼",
+         "lsnum": "C"
+     },
+     {
+         "city": "文昌",
+         "lsprefix": "琼",
+         "lsnum": "C"
+     },
+     {
+         "city": "五指山",
+         "lsprefix": "琼",
+         "lsnum": "D"
+     },
+     {
+         "city": "儋州",
+         "lsprefix": "琼",
+         "lsnum": "C"
+     }
+     ]
+ },
+ {
+     "province": "河北",
+     "lsprefix": "冀",
+     "lsnum": "",
+     "carorg": "hebei",
+     "frameno": "4",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "石家庄",
+         "lsprefix": "冀",
+         "lsnum": "A"
+     },
+     {
+         "city": "保定",
+         "lsprefix": "冀",
+         "lsnum": "F"
+     },
+     {
+         "city": "沧州",
+         "lsprefix": "冀",
+         "lsnum": "J"
+     },
+     {
+         "city": "承德",
+         "lsprefix": "冀",
+         "lsnum": "H"
+     },
+     {
+         "city": "邯郸",
+         "lsprefix": "冀",
+         "lsnum": "D"
+     },
+     {
+         "city": "衡水",
+         "lsprefix": "冀",
+         "lsnum": "T"
+     },
+     {
+         "city": "廊坊",
+         "lsprefix": "冀",
+         "lsnum": "R"
+     },
+     {
+         "city": "秦皇岛",
+         "lsprefix": "冀",
+         "lsnum": "C"
+     },
+     {
+         "city": "唐山",
+         "lsprefix": "冀",
+         "lsnum": "B"
+     },
+     {
+         "city": "邢台",
+         "lsprefix": "冀",
+         "lsnum": "E",
+         "carorg": "xingtai",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "张家口",
+         "lsprefix": "冀",
+         "lsnum": "G"
+     }
+     ]
+ },
+ {
+     "province": "河南",
+     "lsprefix": "豫",
+     "lsnum": "",
+     "carorg": "henan",
+     "frameno": "6",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "郑州",
+         "lsprefix": "豫",
+         "lsnum": "A"
+     },
+     {
+         "city": "洛阳",
+         "lsprefix": "豫",
+         "lsnum": "C"
+     },
+     {
+         "city": "开封",
+         "lsprefix": "豫",
+         "lsnum": "B",
+         "carorg": "kaifeng",
+         "frameno": "100",
+         "engineno": "100"
+     },
+     {
+         "city": "安阳",
+         "lsprefix": "豫",
+         "lsnum": "E"
+     },
+     {
+         "city": "鹤壁",
+         "lsprefix": "豫",
+         "lsnum": "F",
+         "carorg": "hebi",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "济源",
+         "lsprefix": "豫",
+         "lsnum": "U"
+     },
+     {
+         "city": "焦作",
+         "lsprefix": "豫",
+         "lsnum": "H",
+         "carorg": "jiaozuo",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "南阳",
+         "lsprefix": "豫",
+         "lsnum": "R"
+     },
+     {
+         "city": "平顶山",
+         "lsprefix": "豫",
+         "lsnum": "D"
+     },
+     {
+         "city": "三门峡",
+         "lsprefix": "豫",
+         "lsnum": "M",
+         "carorg": "sanmenxia",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "商丘",
+         "lsprefix": "豫",
+         "lsnum": "N"
+     },
+     {
+         "city": "新乡",
+         "lsprefix": "豫",
+         "lsnum": "G",
+         "carorg": "xinxiang",
+         "frameno": "0",
+         "engineno": "100"
+     },
+     {
+         "city": "信阳",
+         "lsprefix": "豫",
+         "lsnum": "S"
+     },
+     {
+         "city": "许昌",
+         "lsprefix": "豫",
+         "lsnum": "K"
+     },
+     {
+         "city": "周口",
+         "lsprefix": "豫",
+         "lsnum": "P"
+     },
+     {
+         "city": "驻马店",
+         "lsprefix": "豫",
+         "lsnum": "Q",
+         "carorg": "zhumadian",
+         "frameno": "5",
+         "engineno": "0"
+     },
+     {
+         "city": "漯河",
+         "lsprefix": "豫",
+         "lsnum": "L"
+     },
+     {
+         "city": "濮阳",
+         "lsprefix": "豫",
+         "lsnum": "J",
+         "carorg": "puyang",
+         "frameno": "0",
+         "engineno": "0"
+     }
+     ]
+ },
+ {
+     "province": "黑龙江",
+     "lsprefix": "黑",
+     "lsnum": "",
+     "carorg": "heilongjiang",
+     "frameno": "100",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "哈尔滨",
+         "lsprefix": "黑",
+         "lsnum": "L"
+     },
+     {
+         "city": "大庆",
+         "lsprefix": "黑",
+         "lsnum": "E"
+     },
+     {
+         "city": "大兴安岭",
+         "lsprefix": "黑",
+         "lsnum": "P"
+     },
+     {
+         "city": "鹤岗",
+         "lsprefix": "黑",
+         "lsnum": "H"
+     },
+     {
+         "city": "黑河",
+         "lsprefix": "黑",
+         "lsnum": "N"
+     },
+     {
+         "city": "鸡西",
+         "lsprefix": "黑",
+         "lsnum": "G"
+     },
+     {
+         "city": "佳木斯",
+         "lsprefix": "黑",
+         "lsnum": "D"
+     },
+     {
+         "city": "牡丹江",
+         "lsprefix": "黑",
+         "lsnum": "C"
+     },
+     {
+         "city": "七台河",
+         "lsprefix": "黑",
+         "lsnum": "K"
+     },
+     {
+         "city": "齐齐哈尔",
+         "lsprefix": "黑",
+         "lsnum": "B"
+     },
+     {
+         "city": "双鸭山",
+         "lsprefix": "黑",
+         "lsnum": "J"
+     },
+     {
+         "city": "绥化",
+         "lsprefix": "黑",
+         "lsnum": "M"
+     },
+     {
+         "city": "伊春",
+         "lsprefix": "黑",
+         "lsnum": "F"
+     }
+     ]
+ },
+ {
+     "province": "湖北",
+     "lsprefix": "鄂",
+     "lsnum": "",
+     "carorg": "hubei",
+     "frameno": "5",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "武汉",
+         "lsprefix": "鄂",
+         "lsnum": "A",
+         "carorg": "wuhan",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "仙桃",
+         "lsprefix": "鄂",
+         "lsnum": "M"
+     },
+     {
+         "city": "鄂州",
+         "lsprefix": "鄂",
+         "lsnum": "G"
+     },
+     {
+         "city": "黄冈",
+         "lsprefix": "鄂",
+         "lsnum": "J"
+     },
+     {
+         "city": "黄石",
+         "lsprefix": "鄂",
+         "lsnum": "B"
+     },
+     {
+         "city": "荆门",
+         "lsprefix": "鄂",
+         "lsnum": "H"
+     },
+     {
+         "city": "荆州",
+         "lsprefix": "鄂",
+         "lsnum": "D"
+     },
+     {
+         "city": "潜江",
+         "lsprefix": "鄂",
+         "lsnum": "N"
+     },
+     {
+         "city": "神农架",
+         "lsprefix": "鄂",
+         "lsnum": "P"
+     },
+     {
+         "city": "十堰",
+         "lsprefix": "鄂",
+         "lsnum": "C"
+     },
+     {
+         "city": "随州",
+         "lsprefix": "鄂",
+         "lsnum": "S"
+     },
+     {
+         "city": "天门",
+         "lsprefix": "鄂",
+         "lsnum": "R"
+     },
+     {
+         "city": "咸宁",
+         "lsprefix": "鄂",
+         "lsnum": "L"
+     },
+     {
+         "city": "襄阳",
+         "lsprefix": "鄂",
+         "lsnum": "F"
+     },
+     {
+         "city": "孝感",
+         "lsprefix": "鄂",
+         "lsnum": "K"
+     },
+     {
+         "city": "宜昌",
+         "lsprefix": "鄂",
+         "lsnum": "E"
+     },
+     {
+         "city": "恩施",
+         "lsprefix": "鄂",
+         "lsnum": "Q"
+     }
+     ]
+ },
+ {
+     "province": "湖南",
+     "lsprefix": "湘",
+     "lsnum": "",
+     "list": [
+     {
+         "city": "长沙",
+         "lsprefix": "湘",
+         "lsnum": "A",
+         "carorg": "changsha",
+         "frameno": "0",
+         "engineno": "5"
+     },
+     {
+         "city": "张家界",
+         "lsprefix": "湘",
+         "lsnum": "G"
+     },
+     {
+         "city": "常德",
+         "lsprefix": "湘",
+         "lsnum": "J"
+     },
+     {
+         "city": "郴州",
+         "lsprefix": "湘",
+         "lsnum": "L"
+     },
+     {
+         "city": "衡阳",
+         "lsprefix": "湘",
+         "lsnum": "D"
+     },
+     {
+         "city": "怀化",
+         "lsprefix": "湘",
+         "lsnum": "N"
+     },
+     {
+         "city": "娄底",
+         "lsprefix": "湘",
+         "lsnum": "K"
+     },
+     {
+         "city": "邵阳",
+         "lsprefix": "湘",
+         "lsnum": "E"
+     },
+     {
+         "city": "湘潭",
+         "lsprefix": "湘",
+         "lsnum": "C"
+     },
+     {
+         "city": "湘西",
+         "lsprefix": "湘",
+         "lsnum": "U"
+     },
+     {
+         "city": "益阳",
+         "lsprefix": "湘",
+         "lsnum": "H"
+     },
+     {
+         "city": "永州",
+         "lsprefix": "湘",
+         "lsnum": "M"
+     },
+     {
+         "city": "岳阳",
+         "lsprefix": "湘",
+         "lsnum": "F"
+     },
+     {
+         "city": "株洲",
+         "lsprefix": "湘",
+         "lsnum": "B",
+         "carorg": "zhuzhou",
+         "frameno": "0",
+         "engineno": "6"
+     }
+     ]
+ },
+ {
+     "province": "吉林",
+     "lsprefix": "吉",
+     "lsnum": "",
+     "carorg": "jilin",
+     "frameno": "4",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "长春",
+         "lsprefix": "吉",
+         "lsnum": "A"
+     },
+     {
+         "city": "吉林",
+         "lsprefix": "吉",
+         "lsnum": "B"
+     },
+     {
+         "city": "白城",
+         "lsprefix": "吉",
+         "lsnum": "G",
+         "carorg": "baicheng",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "白山",
+         "lsprefix": "吉",
+         "lsnum": "K"
+     },
+     {
+         "city": "辽源",
+         "lsprefix": "吉",
+         "lsnum": "D"
+     },
+     {
+         "city": "四平",
+         "lsprefix": "吉",
+         "lsnum": "C",
+         "carorg": "siping",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "松原",
+         "lsprefix": "吉",
+         "lsnum": "J"
+     },
+     {
+         "city": "通化",
+         "lsprefix": "吉",
+         "lsnum": "E"
+     },
+     {
+         "city": "延边",
+         "lsprefix": "吉",
+         "lsnum": "H",
+         "carorg": "yanbian",
+         "frameno": "4",
+         "engineno": "0"
+     }
+     ]
+ },
+ {
+     "province": "江苏",
+     "lsprefix": "苏",
+     "lsnum": "",
+     "carorg": "jiangsu",
+     "frameno": "0",
+     "engineno": "6",
+     "list": [
+     {
+         "city": "南京",
+         "lsprefix": "苏",
+         "lsnum": "A",
+         "carorg": "nanjing",
+         "frameno": "0",
+         "engineno": "6"
+     },
+     {
+         "city": "苏州",
+         "lsprefix": "苏",
+         "lsnum": "E",
+         "carorg": "suzhou",
+         "frameno": "7",
+         "engineno": "0"
+     },
+     {
+         "city": "无锡",
+         "lsprefix": "苏",
+         "lsnum": "B"
+     },
+     {
+         "city": "常州",
+         "lsprefix": "苏",
+         "lsnum": "D",
+         "carorg": "changzhou",
+         "frameno": "0",
+         "engineno": "6"
+     },
+     {
+         "city": "淮安",
+         "lsprefix": "苏",
+         "lsnum": "H"
+     },
+     {
+         "city": "连云港",
+         "lsprefix": "苏",
+         "lsnum": "G"
+     },
+     {
+         "city": "南通",
+         "lsprefix": "苏",
+         "lsnum": "F",
+         "carorg": "nantong",
+         "frameno": "0",
+         "engineno": "4"
+     },
+     {
+         "city": "宿迁",
+         "lsprefix": "苏",
+         "lsnum": "N",
+         "carorg": "suqian",
+         "frameno": "0",
+         "engineno": "4"
+     },
+     {
+         "city": "泰州",
+         "lsprefix": "苏",
+         "lsnum": "M"
+     },
+     {
+         "city": "徐州",
+         "lsprefix": "苏",
+         "lsnum": "C"
+     },
+     {
+         "city": "盐城",
+         "lsprefix": "苏",
+         "lsnum": "J"
+     },
+     {
+         "city": "扬州",
+         "lsprefix": "苏",
+         "lsnum": "K"
+     },
+     {
+         "city": "镇江",
+         "lsprefix": "苏",
+         "lsnum": "L",
+         "carorg": "zhenjiang",
+         "frameno": "4",
+         "engineno": "0"
+     }
+     ]
+ },
+ {
+     "province": "江西",
+     "lsprefix": "赣",
+     "lsnum": "",
+     "list": [
+     {
+         "city": "南昌",
+         "lsprefix": "赣",
+         "lsnum": "A,M"
+     },
+     {
+         "city": "抚州",
+         "lsprefix": "赣",
+         "lsnum": "F"
+     },
+     {
+         "city": "赣州",
+         "lsprefix": "赣",
+         "lsnum": "B"
+     },
+     {
+         "city": "吉安",
+         "lsprefix": "赣",
+         "lsnum": "D"
+     },
+     {
+         "city": "景德镇",
+         "lsprefix": "赣",
+         "lsnum": "H"
+     },
+     {
+         "city": "九江",
+         "lsprefix": "赣",
+         "lsnum": "G"
+     },
+     {
+         "city": "萍乡",
+         "lsprefix": "赣",
+         "lsnum": "J"
+     },
+     {
+         "city": "上饶",
+         "lsprefix": "赣",
+         "lsnum": "E"
+     },
+     {
+         "city": "新余",
+         "lsprefix": "赣",
+         "lsnum": "K"
+     },
+     {
+         "city": "宜春",
+         "lsprefix": "赣",
+         "lsnum": "C"
+     },
+     {
+         "city": "鹰潭",
+         "lsprefix": "赣",
+         "lsnum": "L"
+     }
+     ]
+ },
+ {
+     "province": "辽宁",
+     "lsprefix": "辽",
+     "lsnum": "",
+     "list": [
+     {
+         "city": "沈阳",
+         "lsprefix": "辽",
+         "lsnum": "A",
+         "carorg": "shenyang",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "大连",
+         "lsprefix": "辽",
+         "lsnum": "B",
+         "carorg": "dalian",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "鞍山",
+         "lsprefix": "辽",
+         "lsnum": "C",
+         "carorg": "anshan",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "本溪",
+         "lsprefix": "辽",
+         "lsnum": "E",
+         "carorg": "benxi",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "朝阳",
+         "lsprefix": "辽",
+         "lsnum": "N",
+         "carorg": "chaoyang",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "丹东",
+         "lsprefix": "辽",
+         "lsnum": "F",
+         "carorg": "dandong",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "抚顺",
+         "lsprefix": "辽",
+         "lsnum": "D"
+     },
+     {
+         "city": "阜新",
+         "lsprefix": "辽",
+         "lsnum": "J",
+         "carorg": "fuxin",
+         "frameno": "0",
+         "engineno": "100"
+     },
+     {
+         "city": "葫芦岛",
+         "lsprefix": "辽",
+         "lsnum": "P",
+         "carorg": "huludao",
+         "frameno": "100",
+         "engineno": "0"
+     },
+     {
+         "city": "锦州",
+         "lsprefix": "辽",
+         "lsnum": "G",
+         "carorg": "jinzhou",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "辽阳",
+         "lsprefix": "辽",
+         "lsnum": "K",
+         "carorg": "liaoyang",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "盘锦",
+         "lsprefix": "辽",
+         "lsnum": "L",
+         "carorg": "panjin",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "铁岭",
+         "lsprefix": "辽",
+         "lsnum": "M"
+     },
+     {
+         "city": "营口",
+         "lsprefix": "辽",
+         "lsnum": "H",
+         "carorg": "yingkou",
+         "frameno": "6",
+         "engineno": "0"
+     }
+     ]
+ },
+ {
+     "province": "内蒙古",
+     "lsprefix": "蒙",
+     "lsnum": "",
+     "list": [
+     {
+         "city": "呼和浩特",
+         "lsprefix": "蒙",
+         "lsnum": "A"
+     },
+     {
+         "city": "阿拉善盟",
+         "lsprefix": "蒙",
+         "lsnum": "M",
+         "carorg": "alashan",
+         "frameno": "0",
+         "engineno": "100"
+     },
+     {
+         "city": "巴彦淖尔",
+         "lsprefix": "蒙",
+         "lsnum": "L"
+     },
+     {
+         "city": "包头",
+         "lsprefix": "蒙",
+         "lsnum": "B"
+     },
+     {
+         "city": "赤峰",
+         "lsprefix": "蒙",
+         "lsnum": "D"
+     },
+     {
+         "city": "鄂尔多斯",
+         "lsprefix": "蒙",
+         "lsnum": "K",
+         "carorg": "eerduosi",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "呼伦贝尔",
+         "lsprefix": "蒙",
+         "lsnum": "E"
+     },
+     {
+         "city": "通辽",
+         "lsprefix": "蒙",
+         "lsnum": "G"
+     },
+     {
+         "city": "乌海",
+         "lsprefix": "蒙",
+         "lsnum": "C"
+     },
+     {
+         "city": "乌兰察布",
+         "lsprefix": "蒙",
+         "lsnum": "J"
+     },
+     {
+         "city": "锡林郭勒",
+         "lsprefix": "蒙",
+         "lsnum": "H"
+     },
+     {
+         "city": "兴安盟",
+         "lsprefix": "蒙",
+         "lsnum": "F"
+     }
+     ]
+ },
+ {
+     "province": "宁夏",
+     "lsprefix": "宁",
+     "lsnum": "",
+     "carorg": "ningxia",
+     "frameno": "6",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "银川",
+         "lsprefix": "宁",
+         "lsnum": "A"
+     },
+     {
+         "city": "固原",
+         "lsprefix": "宁",
+         "lsnum": "D"
+     },
+     {
+         "city": "石嘴山",
+         "lsprefix": "宁",
+         "lsnum": "B"
+     },
+     {
+         "city": "吴忠",
+         "lsprefix": "宁",
+         "lsnum": "C"
+     },
+     {
+         "city": "中卫",
+         "lsprefix": "宁",
+         "lsnum": "E"
+     }
+     ]
+ },
+ {
+     "province": "青海",
+     "lsprefix": "青",
+     "lsnum": "",
+     "carorg": "qinghai",
+     "frameno": "100",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "西宁",
+         "lsprefix": "青",
+         "lsnum": "A"
+     },
+     {
+         "city": "果洛",
+         "lsprefix": "青",
+         "lsnum": "F"
+     },
+     {
+         "city": "海北",
+         "lsprefix": "青",
+         "lsnum": "C"
+     },
+     {
+         "city": "海东",
+         "lsprefix": "青",
+         "lsnum": "B"
+     },
+     {
+         "city": "海南",
+         "lsprefix": "青",
+         "lsnum": "E"
+     },
+     {
+         "city": "海西",
+         "lsprefix": "青",
+         "lsnum": "H"
+     },
+     {
+         "city": "黄南",
+         "lsprefix": "青",
+         "lsnum": "D"
+     },
+     {
+         "city": "玉树",
+         "lsprefix": "青",
+         "lsnum": "G"
+     }
+     ]
+ },
+ {
+     "province": "山东",
+     "lsprefix": "鲁",
+     "lsnum": "",
+     "carorg": "shandong",
+     "frameno": "0",
+     "engineno": "6",
+     "list": [
+     {
+         "city": "济南",
+         "lsprefix": "鲁",
+         "lsnum": "A"
+     },
+     {
+         "city": "青岛",
+         "lsprefix": "鲁",
+         "lsnum": "B,U",
+         "carorg": "qingdao",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "滨州",
+         "lsprefix": "鲁",
+         "lsnum": "M",
+         "carorg": "binzhou",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "德州",
+         "lsprefix": "鲁",
+         "lsnum": "N",
+         "carorg": "dezhou",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "东营",
+         "lsprefix": "鲁",
+         "lsnum": "E",
+         "carorg": "dongying",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "菏泽",
+         "lsprefix": "鲁",
+         "lsnum": "R",
+         "carorg": "heze",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "济宁",
+         "lsprefix": "鲁",
+         "lsnum": "H"
+     },
+     {
+         "city": "莱芜",
+         "lsprefix": "鲁",
+         "lsnum": "S",
+         "carorg": "laiwu",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "聊城",
+         "lsprefix": "鲁",
+         "lsnum": "P",
+         "carorg": "liaocheng",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "临沂",
+         "lsprefix": "鲁",
+         "lsnum": "Q",
+         "carorg": "linyi",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "日照",
+         "lsprefix": "鲁",
+         "lsnum": "L",
+         "carorg": "rizhao",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "泰安",
+         "lsprefix": "鲁",
+         "lsnum": "J",
+         "carorg": "taian",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "威海",
+         "lsprefix": "鲁",
+         "lsnum": "K"
+     },
+     {
+         "city": "潍坊",
+         "lsprefix": "鲁",
+         "lsnum": "V",
+         "carorg": "weifang",
+         "frameno": "100",
+         "engineno": "0"
+     },
+     {
+         "city": "烟台",
+         "lsprefix": "鲁",
+         "lsnum": "Y",
+         "carorg": "yantai",
+         "frameno": "4",
+         "engineno": "0"
+     },
+     {
+         "city": "枣庄",
+         "lsprefix": "鲁",
+         "lsnum": "D",
+         "carorg": "zaozhuang",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "淄博",
+         "lsprefix": "鲁",
+         "lsnum": "C"
+     }
+     ]
+ },
+ {
+     "province": "山西",
+     "lsprefix": "晋",
+     "lsnum": "",
+     "carorg": "shanxi",
+     "frameno": "6",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "太原",
+         "lsprefix": "晋",
+         "lsnum": "A"
+     },
+     {
+         "city": "长治",
+         "lsprefix": "晋",
+         "lsnum": "D"
+     },
+     {
+         "city": "大同",
+         "lsprefix": "晋",
+         "lsnum": "B"
+     },
+     {
+         "city": "晋城",
+         "lsprefix": "晋",
+         "lsnum": "E"
+     },
+     {
+         "city": "晋中",
+         "lsprefix": "晋",
+         "lsnum": "K"
+     },
+     {
+         "city": "临汾",
+         "lsprefix": "晋",
+         "lsnum": "L"
+     },
+     {
+         "city": "吕梁",
+         "lsprefix": "晋",
+         "lsnum": "J"
+     },
+     {
+         "city": "朔州",
+         "lsprefix": "晋",
+         "lsnum": "F"
+     },
+     {
+         "city": "忻州",
+         "lsprefix": "晋",
+         "lsnum": "H"
+     },
+     {
+         "city": "阳泉",
+         "lsprefix": "晋",
+         "lsnum": "C"
+     },
+     {
+         "city": "运城",
+         "lsprefix": "晋",
+         "lsnum": "M"
+     }
+     ]
+ },
+ {
+     "province": "陕西",
+     "lsprefix": "陕",
+     "lsnum": "",
+     "list": [
+     {
+         "city": "西安",
+         "lsprefix": "陕",
+         "lsnum": "A",
+         "carorg": "xian",
+         "frameno": "0",
+         "engineno": "100"
+     },
+     {
+         "city": "安康",
+         "lsprefix": "陕",
+         "lsnum": "G"
+     },
+     {
+         "city": "宝鸡",
+         "lsprefix": "陕",
+         "lsnum": "C"
+     },
+     {
+         "city": "汉中",
+         "lsprefix": "陕",
+         "lsnum": "F"
+     },
+     {
+         "city": "商洛",
+         "lsprefix": "陕",
+         "lsnum": "H"
+     },
+     {
+         "city": "铜川",
+         "lsprefix": "陕",
+         "lsnum": "B"
+     },
+     {
+         "city": "渭南",
+         "lsprefix": "陕",
+         "lsnum": "E"
+     },
+     {
+         "city": "咸阳",
+         "lsprefix": "陕",
+         "lsnum": "D"
+     },
+     {
+         "city": "延安",
+         "lsprefix": "陕",
+         "lsnum": "J"
+     },
+     {
+         "city": "榆林",
+         "lsprefix": "陕",
+         "lsnum": "K"
+     }
+     ]
+ },
+ {
+     "province": "上海",
+     "lsprefix": "沪",
+     "lsnum": "",
+     "carorg": "shanghai",
+     "frameno": "0",
+     "engineno": "100"
+ },
+ {
+     "province": "四川",
+     "lsprefix": "川",
+     "lsnum": "",
+     "carorg": "sichuan",
+     "frameno": "6",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "成都",
+         "lsprefix": "川",
+         "lsnum": "A"
+     },
+     {
+         "city": "绵阳",
+         "lsprefix": "川",
+         "lsnum": "B"
+     },
+     {
+         "city": "阿坝",
+         "lsprefix": "川",
+         "lsnum": "U"
+     },
+     {
+         "city": "巴中",
+         "lsprefix": "川",
+         "lsnum": "Y"
+     },
+     {
+         "city": "达州",
+         "lsprefix": "川",
+         "lsnum": "S"
+     },
+     {
+         "city": "德阳",
+         "lsprefix": "川",
+         "lsnum": "F"
+     },
+     {
+         "city": "甘孜",
+         "lsprefix": "川",
+         "lsnum": "V"
+     },
+     {
+         "city": "广安",
+         "lsprefix": "川",
+         "lsnum": "X"
+     },
+     {
+         "city": "广元",
+         "lsprefix": "川",
+         "lsnum": "H"
+     },
+     {
+         "city": "乐山",
+         "lsprefix": "川",
+         "lsnum": "L"
+     },
+     {
+         "city": "凉山",
+         "lsprefix": "川",
+         "lsnum": "W"
+     },
+     {
+         "city": "眉山",
+         "lsprefix": "川",
+         "lsnum": "Z"
+     },
+     {
+         "city": "南充",
+         "lsprefix": "川",
+         "lsnum": "R"
+     },
+     {
+         "city": "内江",
+         "lsprefix": "川",
+         "lsnum": "K"
+     },
+     {
+         "city": "攀枝花",
+         "lsprefix": "川",
+         "lsnum": "D"
+     },
+     {
+         "city": "遂宁",
+         "lsprefix": "川",
+         "lsnum": "J"
+     },
+     {
+         "city": "雅安",
+         "lsprefix": "川",
+         "lsnum": "T"
+     },
+     {
+         "city": "宜宾",
+         "lsprefix": "川",
+         "lsnum": "Q"
+     },
+     {
+         "city": "资阳",
+         "lsprefix": "川",
+         "lsnum": "M"
+     },
+     {
+         "city": "自贡",
+         "lsprefix": "川",
+         "lsnum": "C"
+     },
+     {
+         "city": "泸州",
+         "lsprefix": "川",
+         "lsnum": "E"
+     }
+     ]
+ },
+ {
+     "province": "天津",
+     "lsprefix": "津",
+     "lsnum": ""
+ },
+ {
+     "province": "西藏",
+     "lsprefix": "藏",
+     "lsnum": "",
+     "list": [
+     {
+         "city": "拉萨",
+         "lsprefix": "藏",
+         "lsnum": "A"
+     },
+     {
+         "city": "阿里",
+         "lsprefix": "藏",
+         "lsnum": "F"
+     },
+     {
+         "city": "昌都",
+         "lsprefix": "藏",
+         "lsnum": "B"
+     },
+     {
+         "city": "林芝",
+         "lsprefix": "藏",
+         "lsnum": "G"
+     },
+     {
+         "city": "那曲",
+         "lsprefix": "藏",
+         "lsnum": "E"
+     },
+     {
+         "city": "日喀则",
+         "lsprefix": "藏",
+         "lsnum": "D"
+     },
+     {
+         "city": "山南",
+         "lsprefix": "藏",
+         "lsnum": "C"
+     }
+     ]
+ },
+ {
+     "province": "新疆",
+     "lsprefix": "新",
+     "lsnum": "",
+     "carorg": "xinjiang",
+     "frameno": "4",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "乌鲁木齐",
+         "lsprefix": "新",
+         "lsnum": "A"
+     },
+     {
+         "city": "阿克苏",
+         "lsprefix": "新",
+         "lsnum": "N"
+     },
+     {
+         "city": "阿拉尔",
+         "lsprefix": "新",
+         "lsnum": "N"
+     },
+     {
+         "city": "巴音郭楞",
+         "lsprefix": "新",
+         "lsnum": "M",
+         "carorg": "bayin",
+         "frameno": "0",
+         "engineno": "0"
+     },
+     {
+         "city": "博尔塔拉",
+         "lsprefix": "新",
+         "lsnum": "E"
+     },
+     {
+         "city": "昌吉",
+         "lsprefix": "新",
+         "lsnum": "B"
+     },
+     {
+         "city": "哈密",
+         "lsprefix": "新",
+         "lsnum": "L"
+     },
+     {
+         "city": "和田",
+         "lsprefix": "新",
+         "lsnum": "R"
+     },
+     {
+         "city": "喀什",
+         "lsprefix": "新",
+         "lsnum": "Q"
+     },
+     {
+         "city": "克拉玛依",
+         "lsprefix": "新",
+         "lsnum": "J"
+     },
+     {
+         "city": "克孜勒苏",
+         "lsprefix": "新",
+         "lsnum": "P"
+     },
+     {
+         "city": "石河子",
+         "lsprefix": "新",
+         "lsnum": "C"
+     },
+     {
+         "city": "图木舒克",
+         "lsprefix": "新",
+         "lsnum": "Q"
+     },
+     {
+         "city": "吐鲁番",
+         "lsprefix": "新",
+         "lsnum": "K"
+     },
+     {
+         "city": "五家渠",
+         "lsprefix": "新",
+         "lsnum": "B"
+     },
+     {
+         "city": "伊犁",
+         "lsprefix": "新",
+         "lsnum": "F",
+         "carorg": "yili",
+         "frameno": "6",
+         "engineno": "0"
+     }
+     ]
+ },
+ {
+     "province": "云南",
+     "lsprefix": "云",
+     "lsnum": "",
+     "carorg": "yunnan",
+     "frameno": "4",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "昆明",
+         "lsprefix": "云",
+         "lsnum": "A"
+     },
+     {
+         "city": "怒江",
+         "lsprefix": "云",
+         "lsnum": "Q"
+     },
+     {
+         "city": "普洱",
+         "lsprefix": "云",
+         "lsnum": "J"
+     },
+     {
+         "city": "丽江",
+         "lsprefix": "云",
+         "lsnum": "P"
+     },
+     {
+         "city": "保山",
+         "lsprefix": "云",
+         "lsnum": "M"
+     },
+     {
+         "city": "楚雄",
+         "lsprefix": "云",
+         "lsnum": "E"
+     },
+     {
+         "city": "大理",
+         "lsprefix": "云",
+         "lsnum": "L"
+     },
+     {
+         "city": "德宏",
+         "lsprefix": "云",
+         "lsnum": "N"
+     },
+     {
+         "city": "迪庆",
+         "lsprefix": "云",
+         "lsnum": "R"
+     },
+     {
+         "city": "红河",
+         "lsprefix": "云",
+         "lsnum": "G"
+     },
+     {
+         "city": "临沧",
+         "lsprefix": "云",
+         "lsnum": "S"
+     },
+     {
+         "city": "曲靖",
+         "lsprefix": "云",
+         "lsnum": "D"
+     },
+     {
+         "city": "文山",
+         "lsprefix": "云",
+         "lsnum": "H"
+     },
+     {
+         "city": "西双版纳",
+         "lsprefix": "云",
+         "lsnum": "K"
+     },
+     {
+         "city": "玉溪",
+         "lsprefix": "云",
+         "lsnum": "F"
+     },
+     {
+         "city": "昭通",
+         "lsprefix": "云",
+         "lsnum": "C"
+     }
+     ]
+ },
+ {
+     "province": "浙江",
+     "lsprefix": "浙",
+     "lsnum": "",
+     "carorg": "zhejiang",
+     "frameno": "6",
+     "engineno": "0",
+     "list": [
+     {
+         "city": "杭州",
+         "lsprefix": "浙",
+         "lsnum": "A",
+         "carorg": "hangzhou",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "湖州",
+         "lsprefix": "浙",
+         "lsnum": "E"
+     },
+     {
+         "city": "嘉兴",
+         "lsprefix": "浙",
+         "lsnum": "F",
+         "carorg": "jiaxing",
+         "frameno": "100",
+         "engineno": "100"
+     },
+     {
+         "city": "金华",
+         "lsprefix": "浙",
+         "lsnum": "G"
+     },
+     {
+         "city": "丽水",
+         "lsprefix": "浙",
+         "lsnum": "K",
+         "carorg": "lishui",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "宁波",
+         "lsprefix": "浙",
+         "lsnum": "B",
+         "carorg": "ningbo",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "绍兴",
+         "lsprefix": "浙",
+         "lsnum": "D"
+     },
+     {
+         "city": "台州",
+         "lsprefix": "浙",
+         "lsnum": "J",
+         "carorg": "taizhou",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "温州",
+         "lsprefix": "浙",
+         "lsnum": "C"
+     },
+     {
+         "city": "舟山",
+         "lsprefix": "浙",
+         "lsnum": "L",
+         "carorg": "zhoushan",
+         "frameno": "6",
+         "engineno": "0"
+     },
+     {
+         "city": "衢州",
+         "lsprefix": "浙",
+         "lsnum": "H",
+         "carorg": "quzhou",
+         "frameno": "6",
+         "engineno": "0"
+     }
+     ]
+ },
+ {
+     "province": "重庆",
+     "lsprefix": "渝",
+     "lsnum": "",
+     "carorg": "chongqing",
+     "frameno": "4",
+     "engineno": "0"
+ }
+ ]

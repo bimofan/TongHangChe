@@ -250,6 +250,9 @@
 		15903EED1C18706700D40F9C /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 15903EE01C18706700D40F9C /* JSONModel+networking.m */; };
 		15903EEE1C18706700D40F9C /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 15903EE31C18706700D40F9C /* JSONKeyMapper.m */; };
 		15903EEF1C18706700D40F9C /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 15903EE51C18706700D40F9C /* JSONValueTransformer.m */; };
+		15903EF21C1880DF00D40F9C /* JiSuCity.json in Resources */ = {isa = PBXBuildFile; fileRef = 15903EF11C1880DF00D40F9C /* JiSuCity.json */; };
+		15903EF61C18871400D40F9C /* WeiGuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15903EF51C18871400D40F9C /* WeiGuiViewController.m */; };
+		15903EFA1C188B5400D40F9C /* PickCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15903EF91C188B5400D40F9C /* PickCityViewController.m */; };
 		15ED7DA91BEA1836000E1131 /* STScratchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ED7DA61BEA1836000E1131 /* STScratchView.m */; };
 		15ED7DAC1BEA185C000E1131 /* EditPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ED7DAB1BEA185C000E1131 /* EditPhotoViewController.m */; };
 		15ED7DAF1BEA1CA9000E1131 /* BmobIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15ED7DAE1BEA1CA9000E1131 /* BmobIM.framework */; };
@@ -790,6 +793,11 @@
 		15903EE31C18706700D40F9C /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
 		15903EE41C18706700D40F9C /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
 		15903EE51C18706700D40F9C /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		15903EF11C1880DF00D40F9C /* JiSuCity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JiSuCity.json; sourceTree = "<group>"; };
+		15903EF41C18871400D40F9C /* WeiGuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiGuiViewController.h; sourceTree = "<group>"; };
+		15903EF51C18871400D40F9C /* WeiGuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiGuiViewController.m; sourceTree = "<group>"; };
+		15903EF81C188B5400D40F9C /* PickCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickCityViewController.h; sourceTree = "<group>"; };
+		15903EF91C188B5400D40F9C /* PickCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickCityViewController.m; sourceTree = "<group>"; };
 		15ED7DA51BEA1836000E1131 /* STScratchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScratchView.h; sourceTree = "<group>"; };
 		15ED7DA61BEA1836000E1131 /* STScratchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScratchView.m; sourceTree = "<group>"; };
 		15ED7DAB1BEA185C000E1131 /* EditPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPhotoViewController.m; sourceTree = "<group>"; };
@@ -892,6 +900,7 @@
 		040A0C231BABE7AB0057F29A /* 第三方库 */ = {
 			isa = PBXGroup;
 			children = (
+				15903EF01C1880BC00D40F9C /* 极速数据城市 */,
 				15903ECC1C18706700D40F9C /* JSONModel */,
 				15903EC01C18699700D40F9C /* ProgressHUD */,
 				04A11D7E1BF30E3200A02FE5 /* EAIntroView */,
@@ -1740,6 +1749,7 @@
 		04F718521BAA5734002D35B0 /* 周边 */ = {
 			isa = PBXGroup;
 			children = (
+				15903EF31C1886F600D40F9C /* 违规查询 */,
 				04F7185A1BAA5828002D35B0 /* ZhouBianViewController.h */,
 				04F7185B1BAA5828002D35B0 /* ZhouBianViewController.m */,
 				04D5F59D1C10216A00EAD4D9 /* shixinViewController.h */,
@@ -1887,6 +1897,33 @@
 			path = JSONModelTransformations;
 			sourceTree = "<group>";
 		};
+		15903EF01C1880BC00D40F9C /* 极速数据城市 */ = {
+			isa = PBXGroup;
+			children = (
+				15903EF11C1880DF00D40F9C /* JiSuCity.json */,
+			);
+			name = "极速数据城市";
+			sourceTree = "<group>";
+		};
+		15903EF31C1886F600D40F9C /* 违规查询 */ = {
+			isa = PBXGroup;
+			children = (
+				15903EF71C188B2900D40F9C /* cityPickerViewController */,
+				15903EF41C18871400D40F9C /* WeiGuiViewController.h */,
+				15903EF51C18871400D40F9C /* WeiGuiViewController.m */,
+			);
+			name = "违规查询";
+			sourceTree = "<group>";
+		};
+		15903EF71C188B2900D40F9C /* cityPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15903EF81C188B5400D40F9C /* PickCityViewController.h */,
+				15903EF91C188B5400D40F9C /* PickCityViewController.m */,
+			);
+			name = cityPickerViewController;
+			sourceTree = "<group>";
+		};
 		15ED7DA41BEA1836000E1131 /* STSCropPhoto */ = {
 			isa = PBXGroup;
 			children = (
@@ -2028,6 +2065,7 @@
 				044B10471BC654F1007E95BF /* button_send_comment@2x.png in Resources */,
 				040A0CDB1BABF2E90057F29A /* MJRefresh.bundle in Resources */,
 				15903EC71C18699700D40F9C /* ProgressHUD.bundle in Resources */,
+				15903EF21C1880DF00D40F9C /* JiSuCity.json in Resources */,
 				152B12881BF66BDC00E5B6F0 /* Pingpp.bundle in Resources */,
 				0442A7251BDF5EA100FB0A83 /* KTSheetView.xib in Resources */,
 				04984AA41BCBA2CA0044CD8E /* AlipaySDK.bundle in Resources */,
@@ -2178,6 +2216,7 @@
 				04983CE41BB140E2009473AB /* UIImage+UzysExtension.m in Sources */,
 				04AB0B3C1BD4D059007208F5 /* GoyuyueTableViewController.m in Sources */,
 				0409B9D01BB9369D006709A0 /* CarRequestListViewController.m in Sources */,
+				15903EFA1C188B5400D40F9C /* PickCityViewController.m in Sources */,
 				044B104D1BC654F1007E95BF /* WFHudView.m in Sources */,
 				044B103E1BC654F1007E95BF /* WFMessageBody.m in Sources */,
 				040A0C651BABE80A0057F29A /* SDWebImageDownloaderOperation.m in Sources */,
@@ -2210,6 +2249,7 @@
 				044B10541BC654F1007E95BF /* YMTapGestureRecongnizer.m in Sources */,
 				04D0A6361BB2991E00EBDD10 /* MysettingViewController.m in Sources */,
 				044B10521BC654F1007E95BF /* YMShowImageView.m in Sources */,
+				15903EF61C18871400D40F9C /* WeiGuiViewController.m in Sources */,
 				04C2FE5E1BEC6D7B00B9F4F0 /* page1ViewController.m in Sources */,
 				04F7182D1BAA5359002D35B0 /* main.m in Sources */,
 				04D0A6331BB27B8E00EBDD10 /* SettingViewController.m in Sources */,

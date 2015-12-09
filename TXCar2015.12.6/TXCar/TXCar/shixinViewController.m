@@ -11,6 +11,7 @@
 #import "susongdetailViewController.h"
 #import "MJRefresh.h"
 #import "ShiXinModel.h"
+#import "WeiGuiViewController.h"
 
 @interface shixinViewController ()<UITextFieldDelegate,UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate>
 {
