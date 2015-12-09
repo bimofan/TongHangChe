@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/yk-app-ios/!svn/ver/887/YouKang/trunk/YouKang/ThirePartFrameWork/Util
+END
+RSADataSigner.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/RSADataSigner.m
+END
+MD5DataSigner.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/MD5DataSigner.m
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/config.h
+END
+DataVerifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/DataVerifier.h
+END
+NSDataEx.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/NSDataEx.h
+END
+DataVerifier.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/DataVerifier.m
+END
+Alibase64.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/yk-app-ios/!svn/ver/887/YouKang/trunk/YouKang/ThirePartFrameWork/Util/Alibase64.h
+END
+RSADataVerifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/RSADataVerifier.h
+END
+NSDataEx.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/NSDataEx.m
+END
+Alibase64.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/yk-app-ios/!svn/ver/887/YouKang/trunk/YouKang/ThirePartFrameWork/Util/Alibase64.m
+END
+RSADataVerifier.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/RSADataVerifier.m
+END
+DataSigner.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/DataSigner.h
+END
+openssl_wrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/openssl_wrapper.h
+END
+DataSigner.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/DataSigner.m
+END
+RSADataSigner.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/RSADataSigner.h
+END
+MD5DataSigner.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/MD5DataSigner.h
+END
+openssl_wrapper.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/Util/openssl_wrapper.m
+END

@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/yk-app-ios/!svn/ver/1759/YouKang/trunk/YouKang/ThirePartFrameWork/Browser
+END
+MWGridCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWGridCell.h
+END
+MWPhotoBrowserPrivate.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/yk-app-ios/!svn/ver/1754/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWPhotoBrowserPrivate.h
+END
+MWCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWCommon.h
+END
+MWCaptionView.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWCaptionView.h
+END
+MWPhoto.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWPhoto.h
+END
+MWGridViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWGridViewController.m
+END
+MWGridCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWGridCell.m
+END
+MWZoomingScrollView.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWZoomingScrollView.h
+END
+MWCaptionView.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWCaptionView.m
+END
+MWPhotoBrowser.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWPhotoBrowser.h
+END
+MWPhoto.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWPhoto.m
+END
+MWZoomingScrollView.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWZoomingScrollView.m
+END
+MWPhotoBrowser.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/yk-app-ios/!svn/ver/1759/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWPhotoBrowser.m
+END
+MWTapDetectingView.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWTapDetectingView.h
+END
+MWTapDetectingImageView.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWTapDetectingImageView.h
+END
+UIImage+MWPhotoBrowser.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/UIImage+MWPhotoBrowser.h
+END
+MWTapDetectingView.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWTapDetectingView.m
+END
+MWPhotoProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWPhotoProtocol.h
+END
+UIImage+MWPhotoBrowser.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/UIImage+MWPhotoBrowser.m
+END
+MWTapDetectingImageView.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWTapDetectingImageView.m
+END
+MWGridViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/Browser/MWGridViewController.h
+END

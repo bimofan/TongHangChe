@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/yk-app-ios/!svn/ver/1911/YouKang/trunk/YouKang/ThirePartFrameWork
+END
+ApiXml.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/yk-app-ios/!svn/ver/893/YouKang/trunk/YouKang/ThirePartFrameWork/ApiXml.h
+END
+JSBadgeView.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/yk-app-ios/!svn/ver/1073/YouKang/trunk/YouKang/ThirePartFrameWork/JSBadgeView.h
+END
+WXUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/yk-app-ios/!svn/ver/893/YouKang/trunk/YouKang/ThirePartFrameWork/WXUtil.h
+END
+libWeChatSDK.a
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/yk-app-ios/!svn/ver/796/YouKang/trunk/YouKang/ThirePartFrameWork/libWeChatSDK.a
+END
+JSBadgeView.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/yk-app-ios/!svn/ver/1191/YouKang/trunk/YouKang/ThirePartFrameWork/JSBadgeView.m
+END
+libcrypto.a
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/libcrypto.a
+END
+payRequsestHandler.mm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/yk-app-ios/!svn/ver/1106/YouKang/trunk/YouKang/ThirePartFrameWork/payRequsestHandler.mm
+END
+GiFHUD.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/yk-app-ios/!svn/ver/1259/YouKang/trunk/YouKang/ThirePartFrameWork/GiFHUD.h
+END
+KeychainItemWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/yk-app-ios/!svn/ver/736/YouKang/trunk/YouKang/ThirePartFrameWork/KeychainItemWrapper.h
+END
+Order.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/yk-app-ios/!svn/ver/1050/YouKang/trunk/YouKang/ThirePartFrameWork/Order.h
+END
+GiFHUD.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/yk-app-ios/!svn/ver/1259/YouKang/trunk/YouKang/ThirePartFrameWork/GiFHUD.m
+END
+ApiXml.mm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/yk-app-ios/!svn/ver/893/YouKang/trunk/YouKang/ThirePartFrameWork/ApiXml.mm
+END
+WXUtil.mm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/yk-app-ios/!svn/ver/893/YouKang/trunk/YouKang/ThirePartFrameWork/WXUtil.mm
+END
+KeychainItemWrapper.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/yk-app-ios/!svn/ver/736/YouKang/trunk/YouKang/ThirePartFrameWork/KeychainItemWrapper.m
+END
+Order.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/yk-app-ios/!svn/ver/1050/YouKang/trunk/YouKang/ThirePartFrameWork/Order.m
+END
+libssl.a
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/yk-app-ios/!svn/ver/777/YouKang/trunk/YouKang/ThirePartFrameWork/libssl.a
+END
+payRequsestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/yk-app-ios/!svn/ver/1721/YouKang/trunk/YouKang/ThirePartFrameWork/payRequsestHandler.h
+END

@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage
+END
+MKAnnotationView+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/MKAnnotationView+WebCache.h
+END
+SDImageCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDImageCache.h
+END
+SDWebImageDecoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImageDecoder.h
+END
+MKAnnotationView+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/MKAnnotationView+WebCache.m
+END
+SDImageCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDImageCache.m
+END
+SDWebImageManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImageManager.h
+END
+SDWebImageDecoder.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImageDecoder.m
+END
+UIButton+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIButton+WebCache.h
+END
+SDWebImageManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImageManager.m
+END
+SDWebImageDownloaderOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImageDownloaderOperation.h
+END
+UIImageView+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIImageView+WebCache.h
+END
+UIImage+WebP.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIImage+WebP.h
+END
+UIButton+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIButton+WebCache.m
+END
+SDWebImageDownloaderOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImageDownloaderOperation.m
+END
+UIImageView+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIImageView+WebCache.m
+END
+UIImage+WebP.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIImage+WebP.m
+END
+NSData+ImageContentType.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/NSData+ImageContentType.h
+END
+UIView+WebCacheOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIView+WebCacheOperation.h
+END
+SDWebImageDownloader.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImageDownloader.h
+END
+NSData+ImageContentType.m
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/NSData+ImageContentType.m
+END
+UIView+WebCacheOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIView+WebCacheOperation.m
+END
+SDWebImageDownloader.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImageDownloader.m
+END
+UIImageView+HighlightedWebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIImageView+HighlightedWebCache.h
+END
+SDWebImageCompat.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImageCompat.h
+END
+UIImageView+HighlightedWebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIImageView+HighlightedWebCache.m
+END
+UIImage+MultiFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIImage+MultiFormat.h
+END
+SDWebImagePrefetcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImagePrefetcher.h
+END
+SDWebImageCompat.m
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImageCompat.m
+END
+UIImage+GIF.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIImage+GIF.h
+END
+UIImage+MultiFormat.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIImage+MultiFormat.m
+END
+SDWebImagePrefetcher.m
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImagePrefetcher.m
+END
+UIImage+GIF.m
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/UIImage+GIF.m
+END
+SDWebImageOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/yk-app-ios/!svn/ver/1710/YouKang/trunk/YouKang/ThirePartFrameWork/FrameWorks/CoreSDWebImage/Lib/SDWebImage/SDWebImageOperation.h
+END
