@@ -8,11 +8,13 @@
 
 #import "WeiGuiViewController.h"
 #import "PickCityViewController.h"
+#import "WeiGuiListViewController.h"
 
 @interface WeiGuiViewController ()
 
 @property (nonatomic,strong) NSString *Isprefix;
 @property (nonatomic,strong ) NSString *carorg;
+@property (nonatomic,strong)  NSDictionary *dict;
 
 @end
 
@@ -33,7 +35,12 @@
     
 }
 
-
+-(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    
+    return YES;
+    
+}
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     
@@ -65,6 +72,8 @@
        
        if (dict) {
            
+           _dict = dict;
+           
            _carorg = [dict objectForKey:@"carorg"];
            
            _Isprefix = [dict objectForKey:@"lsprefix"];
@@ -94,6 +103,112 @@
 }
 
 - (IBAction)searchButton:(id)sender {
+    
+    
+    if (_carNumLabel.text.length == 0 || _IsprefixLabel.text.length == 0 ) {
+        
+        
+        [[[UIAlertView alloc]initWithTitle:nil message:@"请填写完整的车辆信息" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil]show ];
+        
+        
+        return;
+    }
+    
+    
+    //需要的数据长度
+    NSInteger frameno = [[_dict objectForKey:@"frameno"]integerValue];
+    NSString *_framenoStr = nil;
+    
+    if (frameno == 0) {
+        
+        _framenoStr = @"";
+        
+    }
+    else if (frameno == 100)
+    {
+        
+     
+        
+        if (_framenoStr.length == 0) {
+            
+            [[[UIAlertView alloc]initWithTitle:nil message:@"请填写完整的车辆信息" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil]show ];
+            
+            
+            return;
+
+            
+        }
+    }
+    else
+    {
+        if (_framenoTextField.text.length < frameno) {
+            
+            [[[UIAlertView alloc]initWithTitle:nil message:@"请填写完整的车辆信息" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil]show ];
+            
+            
+            return;
+            
+        }
+        else
+        {
+               _framenoStr = _framenoTextField.text;
+            
+            _framenoStr = [_framenoStr substringFromIndex:(_framenoStr.length - frameno)];
+            
+            
+        }
+    }
+    
+    
+    NSInteger engineno = [[_dict objectForKey:@"engineno"]integerValue];
+    NSString *_enginenoStr = nil;
+  
+    if (engineno == 0) {
+        
+        _enginenoStr = @"";
+    }
+    else if (engineno == 100)
+    {
+        _enginenoStr = _enginenoTextField.text;
+        
+        if (_enginenoTextField.text.length == 0) {
+            
+            [[[UIAlertView alloc]initWithTitle:nil message:@"请填写完整的车辆信息" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil]show ];
+            
+            
+            return;
+        }
+    }
+    else
+    {
+        if (_enginenoStr.length < engineno) {
+            
+            [[[UIAlertView alloc]initWithTitle:nil message:@"请填写完整的车辆信息" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil]show ];
+            
+            
+            return;
+            
+        }
+        else
+        {
+            _enginenoStr = [_enginenoStr substringFromIndex:(_enginenoStr.length - engineno)];
+            
+            
+        }
+    }
+    
+    NSDictionary *param = @{@"carorg":_carorg,@"lsprefix":_Isprefix,@"lsnum":_carNumLabel.text,@"lstype":@"02",@"frameno":_framenoStr,@"engineno":_enginenoStr,@"appkey":kWeiGuiKey};
+    
+    
+    WeiGuiListViewController *_weiguilistTVC = [self.storyboard instantiateViewControllerWithIdentifier:@"WeiGuiListViewController"];
+    
+    _weiguilistTVC.param = param;
+    
+    _weiguilistTVC.titleStr = [NSString stringWithFormat:@"%@%@",_Isprefix,_carNumLabel.text];
+    
+    
+    [self.navigationController pushViewController:_weiguilistTVC animated:YES];
+    
     
     
 }

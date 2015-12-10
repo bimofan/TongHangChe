@@ -202,7 +202,7 @@ void UncaughtExceptionHandler(NSException *exception) {
     
     _cityArray = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
     
-    NSLog(@"citys:%@",_cityArray);
+
     
     
     return YES;

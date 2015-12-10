@@ -18,6 +18,11 @@
 @property (nonatomic) UITableView *leftTableView;
 @property (nonatomic) UITableView *rightTableView;
 
+@property (nonatomic)  NSString *carorg;
+@property (nonatomic) NSInteger engineno;
+@property (nonatomic) NSInteger frameno;
+
+
 @end
 
 @implementation PickCityViewController
@@ -192,6 +197,12 @@
         
         if (citys.count > 0) {
             
+            
+            _carorg = [provinceDic objectForKey:@"carorg"];
+            _engineno = [[provinceDic objectForKey:@"engineno"]integerValue];
+            _frameno = [[provinceDic objectForKey:@"frameno"]integerValue];
+            
+            
             _rightDataSource = citys;
             
         
@@ -219,9 +230,38 @@
     {
         NSDictionary *cityDict = [_rightDataSource objectAtIndex:indexPath.section];
         
+        NSString *temcarorg = [cityDict objectForKey:@"carorg"];
+        
+          NSMutableDictionary *Mudict = [[NSMutableDictionary alloc]initWithDictionary:cityDict];
+        
+        if (temcarorg.length == 0) {
+            
+            
+            [Mudict setObject:_carorg forKey:@"carorg"];
+            
+            
+  
+            
+        }
+        
+        NSInteger temEngineNo = [[cityDict objectForKey:@"engineno"]integerValue];
+        
+        if (temEngineNo == 0 && _engineno > 0) {
+            
+            [Mudict setObject:@(_engineno) forKey:@"engineno"];
+            
+        }
+        
+        NSInteger temFrameNo = [[cityDict objectForKey:@"frameno"]integerValue];
+        
+        if (temFrameNo == 0 && _frameno > 0) {
+            
+            [Mudict setObject:@(_frameno) forKey:@"frameno"];
+            
+        }
         if (_block) {
             
-            _block(cityDict,YES);
+            _block(Mudict,YES);
             
         }
         

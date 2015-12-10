@@ -17,3 +17,7 @@
 #define kWeiGuiKey      @"2f8cb6f1b0de637f"
 
 
+//违规查询历史
+#define kWeiGuiLiShi     @"WeiGuiLiShi"
+
+

@@ -235,6 +235,8 @@
 		04FB91711BE311D10086B689 /* pinglunTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB91701BE311D10086B689 /* pinglunTableViewController.m */; };
 		04FB91751BE353770086B689 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB91741BE353770086B689 /* HCSStarRatingView.m */; };
 		151103301C17EAAB00826232 /* RequestMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1511032F1C17EAAB00826232 /* RequestMethod.m */; };
+		1525E0A01C193D0B00A7A6F1 /* WeiGuiListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525E09F1C193D0B00A7A6F1 /* WeiGuiListViewController.m */; };
+		1525E0A31C19429200A7A6F1 /* WeiguiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525E0A21C19429200A7A6F1 /* WeiguiCell.m */; };
 		152B12881BF66BDC00E5B6F0 /* Pingpp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 152B12871BF66BDC00E5B6F0 /* Pingpp.bundle */; };
 		15903EC61C18699700D40F9C /* MyProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 15903EC21C18699700D40F9C /* MyProgressHUD.m */; };
 		15903EC71C18699700D40F9C /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15903EC31C18699700D40F9C /* ProgressHUD.bundle */; };
@@ -764,6 +766,10 @@
 		1511032E1C17EAAB00826232 /* RequestMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestMethod.h; sourceTree = "<group>"; };
 		1511032F1C17EAAB00826232 /* RequestMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestMethod.m; sourceTree = "<group>"; };
 		151106CC1C17F14B00826232 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1525E09E1C193D0B00A7A6F1 /* WeiGuiListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiGuiListViewController.h; sourceTree = "<group>"; };
+		1525E09F1C193D0B00A7A6F1 /* WeiGuiListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiGuiListViewController.m; sourceTree = "<group>"; };
+		1525E0A11C19429200A7A6F1 /* WeiguiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiguiCell.h; sourceTree = "<group>"; };
+		1525E0A21C19429200A7A6F1 /* WeiguiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiguiCell.m; sourceTree = "<group>"; };
 		152B12871BF66BDC00E5B6F0 /* Pingpp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Pingpp.bundle; sourceTree = "<group>"; };
 		15903EC11C18699700D40F9C /* MyProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProgressHUD.h; sourceTree = "<group>"; };
 		15903EC21C18699700D40F9C /* MyProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProgressHUD.m; sourceTree = "<group>"; };
@@ -1911,6 +1917,10 @@
 				15903EF71C188B2900D40F9C /* cityPickerViewController */,
 				15903EF41C18871400D40F9C /* WeiGuiViewController.h */,
 				15903EF51C18871400D40F9C /* WeiGuiViewController.m */,
+				1525E09E1C193D0B00A7A6F1 /* WeiGuiListViewController.h */,
+				1525E09F1C193D0B00A7A6F1 /* WeiGuiListViewController.m */,
+				1525E0A11C19429200A7A6F1 /* WeiguiCell.h */,
+				1525E0A21C19429200A7A6F1 /* WeiguiCell.m */,
 			);
 			name = "违规查询";
 			sourceTree = "<group>";
@@ -2144,6 +2154,7 @@
 				04F718591BAA5813002D35B0 /* ZhuanRangViewController.m in Sources */,
 				040A0C691BABE80A0057F29A /* UIImage+GIF.m in Sources */,
 				040A0C6E1BABE80A0057F29A /* UIView+WebCacheOperation.m in Sources */,
+				1525E0A01C193D0B00A7A6F1 /* WeiGuiListViewController.m in Sources */,
 				15903EE71C18706700D40F9C /* JSONModelArray.m in Sources */,
 				044B10501BC654F1007E95BF /* YMButton.m in Sources */,
 				04B4042B1BCDF0BB001419C9 /* PageviewViewController.m in Sources */,
@@ -2236,6 +2247,7 @@
 				04AB0BBD1BD60829007208F5 /* CityDetailSelectViewController.m in Sources */,
 				04DAA3AA1BF09DAC00CDDF8A /* sousuocheViewController.m in Sources */,
 				15ED7DB81BEA310B000E1131 /* RecentTableViewCell.m in Sources */,
+				1525E0A31C19429200A7A6F1 /* WeiguiCell.m in Sources */,
 				0442A7211BDF5EA100FB0A83 /* KTActionSheet.m in Sources */,
 				04983CE91BB140E2009473AB /* UzysAssetsViewCell.m in Sources */,
 				04B01FE51BCCD469002FEDA3 /* YuyueViewController.m in Sources */,
