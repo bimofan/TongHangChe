@@ -2038,7 +2038,7 @@
 				TargetAttributes = {
 					04F718261BAA5359002D35B0 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = K5443SNRTU;
+						DevelopmentTeam = H65VFKAH4F;
 					};
 					04F7183F1BAA5359002D35B0 = {
 						CreatedOnToolsVersion = 6.4;
@@ -2543,7 +2543,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tonghangche;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "c3e19268-5c31-4740-b7e7-7126614f56b0";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
