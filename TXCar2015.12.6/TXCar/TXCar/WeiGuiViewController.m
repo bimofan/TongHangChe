@@ -31,6 +31,12 @@
     _IsprefixLabel.textColor =[UIColor colorWithRed:38/255.0 green:151/255.0 blue:1/255.0 alpha:1];
     _IsprefixLabel.layer.borderWidth = 1;
     
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithTitle:@"历史" style:UIBarButtonItemStylePlain target:self action:@selector(showHistory)];
+    
+    self.navigationItem.rightBarButtonItem = rightButton;
+    
+    
+    
     
     
 }
@@ -92,6 +98,28 @@
                
            }
            
+           
+              NSInteger engineno = [[_dict objectForKey:@"engineno"]integerValue];
+           
+           if (engineno == 0) {
+               
+               _enginenoTextField.placeholder = @"请填写发动机号(选填)";
+           }
+           else
+           {
+                _enginenoTextField.placeholder = @"请填写发动机号(必填)";
+           }
+           
+              NSInteger frameno = [[_dict objectForKey:@"frameno"]integerValue];
+           
+           
+           if (frameno == 0) {
+               
+               _framenoTextField.placeholder = @"请填写车架号(选填)";
+           }else
+           {
+               _framenoTextField.placeholder = @"请填写车架号(必填)";
+           }
            
        }
        
@@ -210,6 +238,16 @@
     [self.navigationController pushViewController:_weiguilistTVC animated:YES];
     
     
+    
+}
+
+#pragma mark  - 显示历史查询记录
+-(void)showHistory
+{
+    WeiGuiHistoryTVC *_history = [self.storyboard instantiateViewControllerWithIdentifier:@"WeiGuiHistoryTVC"];
+    
+    
+    [self.navigationController pushViewController:_history animated:YES];
     
 }
 @end

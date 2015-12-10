@@ -27,6 +27,9 @@
     [super viewDidLoad];
     _zhoubian_tableview.delegate=self;
     _zhoubian_tableview.dataSource=self;
+    
+       self.navigationItem.backBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleBordered target:nil action:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -84,7 +87,7 @@
         [self.navigationController pushViewController:wxVc animated:YES];
     }else if (indexPath.section == 1){
       shixinViewController *oneC = [self.storyboard instantiateViewControllerWithIdentifier:@"shixin"];
-    self.navigationItem.backBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleBordered target:nil action:nil];
+ 
 //        YuyueViewController *oneC = [self.storyboard instantiateViewControllerWithIdentifier:@"yuyue_view"];
 //        YuyuemaiViewController *one1 = [self.storyboard instantiateViewControllerWithIdentifier:@"yuyue_view1"];
 //      cac = [[ppViewController alloc]initViewControllerWithTitleArray:@[@"失信",@"诉讼"] vcArray:@[oneC,one1]];

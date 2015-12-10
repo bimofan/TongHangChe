@@ -235,6 +235,9 @@
 		04FB91711BE311D10086B689 /* pinglunTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB91701BE311D10086B689 /* pinglunTableViewController.m */; };
 		04FB91751BE353770086B689 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB91741BE353770086B689 /* HCSStarRatingView.m */; };
 		151103301C17EAAB00826232 /* RequestMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1511032F1C17EAAB00826232 /* RequestMethod.m */; };
+		152196FD1C19AA4700C0D7D6 /* WeiGuiDetailTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 152196FC1C19AA4700C0D7D6 /* WeiGuiDetailTVC.m */; };
+		152197001C19AE5000C0D7D6 /* WeiGuiHistoryTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 152196FF1C19AE5000C0D7D6 /* WeiGuiHistoryTVC.m */; };
+		152197031C19B2B700C0D7D6 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 152197021C19B2B700C0D7D6 /* HistoryCell.m */; };
 		1525E0A01C193D0B00A7A6F1 /* WeiGuiListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525E09F1C193D0B00A7A6F1 /* WeiGuiListViewController.m */; };
 		1525E0A31C19429200A7A6F1 /* WeiguiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525E0A21C19429200A7A6F1 /* WeiguiCell.m */; };
 		152B12881BF66BDC00E5B6F0 /* Pingpp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 152B12871BF66BDC00E5B6F0 /* Pingpp.bundle */; };
@@ -766,6 +769,12 @@
 		1511032E1C17EAAB00826232 /* RequestMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestMethod.h; sourceTree = "<group>"; };
 		1511032F1C17EAAB00826232 /* RequestMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestMethod.m; sourceTree = "<group>"; };
 		151106CC1C17F14B00826232 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		152196FB1C19AA4700C0D7D6 /* WeiGuiDetailTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiGuiDetailTVC.h; sourceTree = "<group>"; };
+		152196FC1C19AA4700C0D7D6 /* WeiGuiDetailTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiGuiDetailTVC.m; sourceTree = "<group>"; };
+		152196FE1C19AE5000C0D7D6 /* WeiGuiHistoryTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiGuiHistoryTVC.h; sourceTree = "<group>"; };
+		152196FF1C19AE5000C0D7D6 /* WeiGuiHistoryTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiGuiHistoryTVC.m; sourceTree = "<group>"; };
+		152197011C19B2B700C0D7D6 /* HistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		152197021C19B2B700C0D7D6 /* HistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
 		1525E09E1C193D0B00A7A6F1 /* WeiGuiListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiGuiListViewController.h; sourceTree = "<group>"; };
 		1525E09F1C193D0B00A7A6F1 /* WeiGuiListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiGuiListViewController.m; sourceTree = "<group>"; };
 		1525E0A11C19429200A7A6F1 /* WeiguiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiguiCell.h; sourceTree = "<group>"; };
@@ -1921,6 +1930,12 @@
 				1525E09F1C193D0B00A7A6F1 /* WeiGuiListViewController.m */,
 				1525E0A11C19429200A7A6F1 /* WeiguiCell.h */,
 				1525E0A21C19429200A7A6F1 /* WeiguiCell.m */,
+				152196FB1C19AA4700C0D7D6 /* WeiGuiDetailTVC.h */,
+				152196FC1C19AA4700C0D7D6 /* WeiGuiDetailTVC.m */,
+				152196FE1C19AE5000C0D7D6 /* WeiGuiHistoryTVC.h */,
+				152196FF1C19AE5000C0D7D6 /* WeiGuiHistoryTVC.m */,
+				152197011C19B2B700C0D7D6 /* HistoryCell.h */,
+				152197021C19B2B700C0D7D6 /* HistoryCell.m */,
 			);
 			name = "违规查询";
 			sourceTree = "<group>";
@@ -2182,6 +2197,8 @@
 				044B104C1BC654F1007E95BF /* WFActionSheet.m in Sources */,
 				04DA3C151BDA257A00B56B36 /* EmojiView.m in Sources */,
 				15FD68051BEB1C4500F93621 /* SDPhotoItem.m in Sources */,
+				152197031C19B2B700C0D7D6 /* HistoryCell.m in Sources */,
+				152196FD1C19AA4700C0D7D6 /* WeiGuiDetailTVC.m in Sources */,
 				040A0CE11BABF2E90057F29A /* UIScrollView+MJRefresh.m in Sources */,
 				15903ECB1C18701400D40F9C /* ShiXinModel.m in Sources */,
 				0442A7221BDF5EA100FB0A83 /* KTSheetCell.m in Sources */,
@@ -2219,6 +2236,7 @@
 				0442A6CF1BDDFEA700FB0A83 /* AFHTTPRequestOperationManager.m in Sources */,
 				04983D011BB15488009473AB /* RSKImageCropViewController.m in Sources */,
 				04794C3C1BDA1E0E0073EEFE /* MBProgressHUD.m in Sources */,
+				152197001C19AE5000C0D7D6 /* WeiGuiHistoryTVC.m in Sources */,
 				15903EED1C18706700D40F9C /* JSONModel+networking.m in Sources */,
 				04E63E9D1BAE8D8F003A8B21 /* FMResultSet.m in Sources */,
 				04D0A6301BB2496900EBDD10 /* LoginViewController.m in Sources */,

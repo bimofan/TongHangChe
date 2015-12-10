@@ -9,6 +9,7 @@
 #import "WeiGuiListViewController.h"
 #import "RequestMethod.h"
 #import "Constants.h"
+#import "WeiGuiDetailTVC.h"
 
 @interface WeiGuiListViewController ()
 {
@@ -53,12 +54,29 @@
                 
                 NSDictionary *result = [results objectForKey:@"result"];
                 
+                
                 NSArray *list = [result objectForKey:@"list"];
                 
                 if (list.count > 0) {
                     
+                    NSMutableDictionary *mudict = [NSMutableDictionary dictionaryWithDictionary:result];
                     
-                    [[NSUserDefaults standardUserDefaults ] setObject:result forKey:kWeiGuiKey];
+                    [mudict setObject:_param forKey:@"param"];
+                    
+                    
+                    NSArray *temArray = [[NSUserDefaults standardUserDefaults ] objectForKey:kWeiGuiKey];
+                    
+                    NSMutableArray *muArray = [[NSMutableArray alloc]init];
+                    
+                    if (temArray.count > 0) {
+                        
+                        [muArray addObjectsFromArray:temArray];
+                        
+                    }
+                    
+                    [muArray addObject:mudict];
+                    
+                    [[NSUserDefaults standardUserDefaults ] setObject:muArray forKey:kWeiGuiLiShi];
                     
                     [[NSUserDefaults standardUserDefaults ] synchronize];
                     
@@ -163,7 +181,22 @@
     return cell;
 }
 
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    
+     NSDictionary *oneDict = [_dataSource objectAtIndex:indexPath.section];
+    
+    WeiGuiDetailTVC *_detailTVC = [self.storyboard instantiateViewControllerWithIdentifier:@"WeiGuiDetailTVC"];
+    
+    _detailTVC.dataDict = oneDict;
+    
+    
+    [self.navigationController pushViewController:_detailTVC animated:YES];
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+}
 -(NSMutableAttributedString*)getAttributeStringWithString:(NSString*)str andcheckString:(NSString*)check
 {
     

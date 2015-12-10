@@ -1,28 +1,40 @@
 {
   "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F025799424A055A7ED65D33A4797E0639CC44E11",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d2794442-7da2-7e07-eb7a-ce57b7db7bff++9048" : {
+
+    },
+    "d2794442-7da2-7e07-eb7a-ce57b7db7bff++232" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "branches",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
+    },
     "d2794442-7da2-7e07-eb7a-ce57b7db7bff++3963" : {
 
     },
     "fef52269-97d4-bd67-724f-ce57b7db7bff++6040" : {
 
     },
-    "d2794442-7da2-7e07-eb7a-ce57b7db7bff++9048" : {
-
+    "d2794442-7da2-7e07-eb7a-ce57b7db7bff++9400" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "branches",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "d2794442-7da2-7e07-eb7a-ce57b7db7bff++9048" : 0,
+    "d2794442-7da2-7e07-eb7a-ce57b7db7bff++232" : 0,
     "d2794442-7da2-7e07-eb7a-ce57b7db7bff++3963" : 0,
+    "F025799424A055A7ED65D33A4797E0639CC44E11" : 0,
     "fef52269-97d4-bd67-724f-ce57b7db7bff++6040" : 0,
-    "F025799424A055A7ED65D33A4797E0639CC44E11" : 0
+    "d2794442-7da2-7e07-eb7a-ce57b7db7bff++9400" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9F9BD6EF-7FD6-47EE-82AA-DB6E03EB2750",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "d2794442-7da2-7e07-eb7a-ce57b7db7bff++9048" : "TongHangChe\/TXCar2015.12.6\/TXCar\/ProgressHUD\/",
+    "d2794442-7da2-7e07-eb7a-ce57b7db7bff++232" : "TongHangChe\/TXCar2015.12.6\/TXCar\/JSONModel\/JSONModel\/",
     "d2794442-7da2-7e07-eb7a-ce57b7db7bff++3963" : "TongHangChe\/TXCar2015.12.6\/TXCar\/JSONModel\/",
+    "F025799424A055A7ED65D33A4797E0639CC44E11" : "TongHangChe\/",
     "fef52269-97d4-bd67-724f-ce57b7db7bff++6040" : "TongHangChe\/TXCar2015.12.6\/TXCar\/SDPhotoBrowser\/",
-    "F025799424A055A7ED65D33A4797E0639CC44E11" : "TongHangChe\/"
+    "d2794442-7da2-7e07-eb7a-ce57b7db7bff++9400" : "TongHangChe\/TXCar2015.12.6\/TXCar\/ProgressHUD\/ProgressHUD.bundle\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "TXCar",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -36,12 +48,22 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/supernoval\/linzihui",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d2794442-7da2-7e07-eb7a-ce57b7db7bff++232"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/supernoval\/linzihui",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d2794442-7da2-7e07-eb7a-ce57b7db7bff++3963"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/supernoval\/linzihui",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d2794442-7da2-7e07-eb7a-ce57b7db7bff++9048"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/supernoval\/linzihui",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d2794442-7da2-7e07-eb7a-ce57b7db7bff++9400"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/supernoval\/QianShou",
