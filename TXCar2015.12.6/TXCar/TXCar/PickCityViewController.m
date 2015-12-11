@@ -236,7 +236,10 @@
         
         if (temcarorg.length == 0) {
             
-            
+            if (!_carorg) {
+                
+                _carorg = @"";
+            }
             [Mudict setObject:_carorg forKey:@"carorg"];
             
             

@@ -153,6 +153,10 @@
         
         UIImageView *image = (UIImageView*)[cell viewWithTag:4];
         
+        UILabel *addressLabel = (UILabel*)[cell viewWithTag:5];
+        
+        
+        
       
         NSString *dateStr = model.Liandate;
         
@@ -168,7 +172,7 @@
         lable12.text = model.Name;
         lable1.text = model.Anno;
         lable3.text = dateStr;
-        
+        addressLabel.text = model.Province;
    
         
         if(model.type==2){

@@ -29,4 +29,14 @@
 - (IBAction)pickcityAction:(id)sender;
 - (IBAction)searchButton:(id)sender;
 
+
+@property (weak, nonatomic) IBOutlet UILabel *engineLabel;
+@property (weak, nonatomic) IBOutlet UIView *enginelineView;
+@property (weak, nonatomic) IBOutlet UIView *chejialineView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *viewHeightConstraint;
+@property (weak, nonatomic) IBOutlet UILabel *chejialabel;
+
+@property (weak, nonatomic) IBOutlet UIView *chejiaVline;
+
+
 @end

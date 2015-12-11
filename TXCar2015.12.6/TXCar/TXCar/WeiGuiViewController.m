@@ -109,11 +109,23 @@
            
            if (engineno == 0) {
                
-               _enginenoTextField.placeholder = @"请填写发动机号(选填)";
+               _enginenoTextField.hidden = YES;
+               _engineLabel.hidden = YES;
+               _enginelineView.hidden = YES;
+               
+       
+               
+               _viewHeightConstraint.constant = 120;
+               
+               
+               _enginenoTextField.placeholder = @"请填写发动机号";
            }
            else
            {
-                _enginenoTextField.placeholder = @"请填写发动机号(必填)";
+               _enginenoTextField.hidden = NO;
+               _engineLabel.hidden = NO;
+               _enginelineView.hidden = NO;
+                _enginenoTextField.placeholder = @"请填写发动机号";
            }
            
               NSInteger frameno = [[_dict objectForKey:@"frameno"]integerValue];
@@ -121,10 +133,33 @@
            
            if (frameno == 0) {
                
-               _framenoTextField.placeholder = @"请填写车架号(选填)";
+               _chejialabel.hidden = YES;
+               _chejialineView.hidden = YES;
+               _chejiaVline.hidden = YES;
+               _framenoTextField.hidden = YES;
+               
+               _framenoTextField.placeholder = @"请填写车架号";
+               
+               
+               if (engineno == 0) {
+                   
+                   _viewHeightConstraint.constant = 80;
+               }
+               else
+               {
+                   _viewHeightConstraint.constant = 120;
+               }
+               
+               
+               
+               
            }else
            {
-               _framenoTextField.placeholder = @"请填写车架号(必填)";
+               _chejialabel.hidden = NO;
+               _chejialineView.hidden = NO;
+               _framenoTextField.hidden = NO;
+               _chejiaVline.hidden = NO;
+               _framenoTextField.placeholder = @"请填写车架号";
            }
            
        }
