@@ -9,9 +9,13 @@
 #import "WeiGuiViewController.h"
 #import "PickCityViewController.h"
 #import "WeiGuiListViewController.h"
+#import "PrefixView.h"
 
-@interface WeiGuiViewController ()
-
+@interface WeiGuiViewController ()<SelectedPrefix>
+{
+    PrefixView *_prefixView;
+    
+}
 @property (nonatomic,strong) NSString *Isprefix;
 @property (nonatomic,strong ) NSString *carorg;
 @property (nonatomic,strong)  NSDictionary *dict;
@@ -24,19 +28,24 @@
     [super viewDidLoad];
  
     self.title = @"车辆详情";
-    _IsprefixLabel.clipsToBounds = YES;
-    _IsprefixLabel.layer.cornerRadius = 2.0;
     
-    _IsprefixLabel.layer.borderColor = [UIColor colorWithRed:38/255.0 green:151/255.0 blue:1/255.0 alpha:1].CGColor;
-    _IsprefixLabel.textColor =[UIColor colorWithRed:38/255.0 green:151/255.0 blue:1/255.0 alpha:1];
-    _IsprefixLabel.layer.borderWidth = 1;
+    _lsprefixButton.clipsToBounds = YES;
+    _lsprefixButton.layer.cornerRadius = 2.0;
+    
+    _lsprefixButton.layer.borderColor = [UIColor colorWithRed:38/255.0 green:151/255.0 blue:1/255.0 alpha:1].CGColor;
+    
+    _lsprefixButton.layer.borderWidth = 1;
     
     UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithTitle:@"历史" style:UIBarButtonItemStylePlain target:self action:@selector(showHistory)];
     
     self.navigationItem.rightBarButtonItem = rightButton;
     
+    _Isprefix = @"京";
     
     
+    _prefixView = [[PrefixView alloc]initWithFrame:self.view.bounds];
+    
+    _prefixView.delegate = self;
     
     
 }
@@ -82,10 +91,7 @@
            
            _carorg = [dict objectForKey:@"carorg"];
            
-           _Isprefix = [dict objectForKey:@"lsprefix"];
-           
-           
-           _IsprefixLabel.text = _Isprefix;
+       
            
            if (isCity) {
                
@@ -133,7 +139,7 @@
 - (IBAction)searchButton:(id)sender {
     
     
-    if (_carNumLabel.text.length == 0 || _IsprefixLabel.text.length == 0 ) {
+    if (_carNumLabel.text.length == 0 ) {
         
         
         [[[UIAlertView alloc]initWithTitle:nil message:@"请填写完整的车辆信息" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil]show ];
@@ -248,6 +254,25 @@
     
     
     [self.navigationController pushViewController:_history animated:YES];
+    
+}
+- (IBAction)showPreFix:(id)sender {
+    
+    
+    [self.view addSubview:_prefixView];
+    
+    
+    
+    
+}
+
+-(void)didSelectedPrefix:(NSString *)prefix
+{
+    _Isprefix = prefix;
+    
+    [_lsprefixButton setTitle:prefix forState:UIControlStateNormal];
+    
+    
     
 }
 @end

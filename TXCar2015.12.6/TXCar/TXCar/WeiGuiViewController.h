@@ -15,6 +15,12 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *carNumLabel;
 
+@property (weak, nonatomic) IBOutlet UIButton *lsprefixButton;
+
+
+- (IBAction)showPreFix:(id)sender;
+
+
 @property (weak, nonatomic) IBOutlet UITextField *citytextField;
 
 @property (weak, nonatomic) IBOutlet UITextField *enginenoTextField;

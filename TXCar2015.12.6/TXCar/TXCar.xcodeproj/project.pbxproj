@@ -258,6 +258,7 @@
 		15903EF21C1880DF00D40F9C /* JiSuCity.json in Resources */ = {isa = PBXBuildFile; fileRef = 15903EF11C1880DF00D40F9C /* JiSuCity.json */; };
 		15903EF61C18871400D40F9C /* WeiGuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15903EF51C18871400D40F9C /* WeiGuiViewController.m */; };
 		15903EFA1C188B5400D40F9C /* PickCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15903EF91C188B5400D40F9C /* PickCityViewController.m */; };
+		15D033D51C1AB8FF006ABC8C /* PrefixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D033D41C1AB8FF006ABC8C /* PrefixView.m */; };
 		15ED7DA91BEA1836000E1131 /* STScratchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ED7DA61BEA1836000E1131 /* STScratchView.m */; };
 		15ED7DAC1BEA185C000E1131 /* EditPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ED7DAB1BEA185C000E1131 /* EditPhotoViewController.m */; };
 		15ED7DAF1BEA1CA9000E1131 /* BmobIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15ED7DAE1BEA1CA9000E1131 /* BmobIM.framework */; };
@@ -813,6 +814,8 @@
 		15903EF51C18871400D40F9C /* WeiGuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiGuiViewController.m; sourceTree = "<group>"; };
 		15903EF81C188B5400D40F9C /* PickCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickCityViewController.h; sourceTree = "<group>"; };
 		15903EF91C188B5400D40F9C /* PickCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickCityViewController.m; sourceTree = "<group>"; };
+		15D033D31C1AB8FF006ABC8C /* PrefixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixView.h; sourceTree = "<group>"; };
+		15D033D41C1AB8FF006ABC8C /* PrefixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefixView.m; sourceTree = "<group>"; };
 		15ED7DA51BEA1836000E1131 /* STScratchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScratchView.h; sourceTree = "<group>"; };
 		15ED7DA61BEA1836000E1131 /* STScratchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScratchView.m; sourceTree = "<group>"; };
 		15ED7DAB1BEA185C000E1131 /* EditPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPhotoViewController.m; sourceTree = "<group>"; };
@@ -1936,6 +1939,8 @@
 				152196FF1C19AE5000C0D7D6 /* WeiGuiHistoryTVC.m */,
 				152197011C19B2B700C0D7D6 /* HistoryCell.h */,
 				152197021C19B2B700C0D7D6 /* HistoryCell.m */,
+				15D033D31C1AB8FF006ABC8C /* PrefixView.h */,
+				15D033D41C1AB8FF006ABC8C /* PrefixView.m */,
 			);
 			name = "违规查询";
 			sourceTree = "<group>";
@@ -2219,6 +2224,7 @@
 				04AB0BB71BD607F2007208F5 /* CityViewController.m in Sources */,
 				0442A6D71BDDFEA700FB0A83 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				04983CCE1BB11CB9009473AB /* SVIndefiniteAnimatedView.m in Sources */,
+				15D033D51C1AB8FF006ABC8C /* PrefixView.m in Sources */,
 				04DA3C731BDA36DE00B56B36 /* Location.m in Sources */,
 				04983CEC1BB140E2009473AB /* UzysWrapperPickerController.m in Sources */,
 				044B10581BC66554007E95BF /* Feed.m in Sources */,
@@ -2543,7 +2549,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tonghangche;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c3e19268-5c31-4740-b7e7-7126614f56b0";
+				PROVISIONING_PROFILE = "6ce1fcad-8651-452e-8b5a-a5171eddb8b3";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

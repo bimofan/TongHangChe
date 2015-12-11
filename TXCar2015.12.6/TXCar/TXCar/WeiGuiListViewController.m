@@ -57,7 +57,7 @@
                 
                 NSArray *list = [result objectForKey:@"list"];
                 
-                if (list.count > 0) {
+                if ([list isKindOfClass:[NSArray class]]) {
                     
                     NSMutableDictionary *mudict = [NSMutableDictionary dictionaryWithDictionary:result];
                     
@@ -88,8 +88,25 @@
                     
                 }
                 
+                NSInteger score = 0;
+                NSInteger price = 0;
                 
-                _headLabel.attributedText = [self fromFirstTwo:[NSString stringWithFormat:@"共有%ld起违章,其中未处理%ld起",(long)list.count,(long)list.count] andcheck:[NSString stringWithFormat:@"%ld",(long)list.count]];
+                for (NSDictionary *dict in list) {
+                    
+                    NSInteger temScore = [[dict objectForKey:@"score"]integerValue];
+                    
+                    NSInteger temprice = [[dict objectForKey:@"price"]integerValue];
+                    
+                    
+                    score += temScore;
+                    
+                    price += temprice;
+                    
+                }
+
+                _headLabel.attributedText = [self fromFirstTwo:[NSString stringWithFormat:@"共有%ld起违章,扣分%ld分,罚款%ld元",(long)list.count,(long)score,(long)price] andfirst:[NSString stringWithFormat:@"%ld",(long)list.count] andsecond:[NSString stringWithFormat:@"%ld",score] andthird:[NSString stringWithFormat:@"%ld",price]];
+                
+                
                 
                 
                 
@@ -213,14 +230,15 @@
 }
 
 
--(NSMutableAttributedString*)fromFirstTwo:(NSString*)str andcheck:(NSString*)check
+-(NSMutableAttributedString*)fromFirstTwo:(NSString*)str andfirst:(NSString*)first andsecond:(NSString*)second andthird:(NSString*)third
 {
     NSMutableAttributedString *_aStr = [[NSMutableAttributedString alloc]initWithString:str];
     
 
-    [_aStr addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(2, check.length)];
+    [_aStr addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(2, first.length)];
     
-      [_aStr addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(str.length - 1 - check.length, check.length)];
+    [_aStr addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(8 + first.length, second.length + 1)];
+     [_aStr addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(str.length - third.length - 1, third.length+1 )];
     
     return _aStr;
 }
