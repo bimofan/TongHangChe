@@ -22,13 +22,14 @@
         
         [self addSubview:control];
         
-        CGFloat screenwith = [UIScreen mainScreen].bounds.size.width;
-        CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
+       
+      ;
         
-        CGFloat with = 60 + 30*8 + 5*7;
-        CGFloat height = 200;
+        CGFloat with = screenwith;
         
-        whiteView = [[UIView alloc]initWithFrame: CGRectMake(screenwith/2 - with/2, screenHeight - height - 20, with, height)];
+        CGFloat height = 250;
+        
+        whiteView = [[UIView alloc]initWithFrame: CGRectMake(screenwith/2 - with/2, screenHeight - height , with, height)];
         whiteView.backgroundColor = [UIColor whiteColor];
         
         
@@ -60,6 +61,9 @@
     
     _dataSource = _appdelegate.cityArray;
     
+    CGFloat offset = (screenwith - 7*10 - 8*30)/2.0;
+    
+    
     
     for (int i = 0 ; i < _dataSource.count; i ++) {
         
@@ -67,11 +71,10 @@
         
         NSString *prefix = [oneProvince objectForKey:@"lsprefix"];
         
-        
         NSInteger line = i/8;
         NSInteger num = i%8;
         
-        UIButton *oneButton = [[UIButton alloc]initWithFrame:CGRectMake(30 + 35*num, line * 35 + 20, 30, 30)];
+        UIButton *oneButton = [[UIButton alloc]initWithFrame:CGRectMake(offset + 40*num, line * 40 + 20, 30, 30)];
         
         [oneButton setTitle:prefix forState:UIControlStateNormal];
         

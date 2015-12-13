@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+#define screenwith [UIScreen mainScreen].bounds.size.width
+#define screenHeight  [UIScreen mainScreen].bounds.size.height
+
 @protocol SelectedPrefix <NSObject>
 
 -(void)didSelectedPrefix:(NSString*)prefix;
