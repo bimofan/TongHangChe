@@ -419,7 +419,37 @@
     
     UIImageView *image1 = (UIImageView*)[cell viewWithTag:1];
     NSURL *URL = [NSURL URLWithString:model.carPic];
-    [image1 sd_setImageWithURL:URL placeholderImage:[UIImage imageNamed:@"loading-image"]];
+  
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//       
+//        UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:URL]];
+//         image = [CommondMethods fitImageSizeWithImage:image with:image1.frame.size.width height:image1.frame.size.height];
+//        
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            
+//            image1.image = image;
+//            
+//        });
+//    });
+    
+    [image1 sd_setImageWithURL:URL placeholderImage:[UIImage imageNamed:@"loading-image"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        
+        
+//        image = [CommondMethods fitImageSizeWithImage:image with:image1.frame.size.width height:image1.frame.size.height];
+        
+//        image1.image = [CommondMethods fitImageSizeWithImage:image1.image with:image1.frame.size.width height:image1.frame.size.height];
+        
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            
+//            
+// 
+//        });
+        
+        
+    }];
+    
+    image1.contentMode = UIViewContentModeScaleAspectFit;
+    
     
     UIImageView *image22 = (UIImageView*)[cell viewWithTag:20];
     if(model.flag==4){

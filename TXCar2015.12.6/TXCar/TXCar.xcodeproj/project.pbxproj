@@ -259,6 +259,7 @@
 		15903EF61C18871400D40F9C /* WeiGuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15903EF51C18871400D40F9C /* WeiGuiViewController.m */; };
 		15903EFA1C188B5400D40F9C /* PickCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15903EF91C188B5400D40F9C /* PickCityViewController.m */; };
 		15D033D51C1AB8FF006ABC8C /* PrefixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D033D41C1AB8FF006ABC8C /* PrefixView.m */; };
+		15D195481C1D7EC8001F286E /* CommondMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D195471C1D7EC8001F286E /* CommondMethods.m */; };
 		15ED7DA91BEA1836000E1131 /* STScratchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ED7DA61BEA1836000E1131 /* STScratchView.m */; };
 		15ED7DAC1BEA185C000E1131 /* EditPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ED7DAB1BEA185C000E1131 /* EditPhotoViewController.m */; };
 		15ED7DAF1BEA1CA9000E1131 /* BmobIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15ED7DAE1BEA1CA9000E1131 /* BmobIM.framework */; };
@@ -816,6 +817,8 @@
 		15903EF91C188B5400D40F9C /* PickCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickCityViewController.m; sourceTree = "<group>"; };
 		15D033D31C1AB8FF006ABC8C /* PrefixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixView.h; sourceTree = "<group>"; };
 		15D033D41C1AB8FF006ABC8C /* PrefixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefixView.m; sourceTree = "<group>"; };
+		15D195461C1D7EC8001F286E /* CommondMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommondMethods.h; sourceTree = "<group>"; };
+		15D195471C1D7EC8001F286E /* CommondMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommondMethods.m; sourceTree = "<group>"; };
 		15ED7DA51BEA1836000E1131 /* STScratchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScratchView.h; sourceTree = "<group>"; };
 		15ED7DA61BEA1836000E1131 /* STScratchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScratchView.m; sourceTree = "<group>"; };
 		15ED7DAB1BEA185C000E1131 /* EditPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPhotoViewController.m; sourceTree = "<group>"; };
@@ -1670,6 +1673,7 @@
 		04F718291BAA5359002D35B0 /* TXCar */ = {
 			isa = PBXGroup;
 			children = (
+				15D195451C1D7E48001F286E /* constants */,
 				04707C731BAEF58200ED6921 /* car.db */,
 				04F7182E1BAA5359002D35B0 /* AppDelegate.h */,
 				04F7182F1BAA5359002D35B0 /* AppDelegate.mm */,
@@ -1954,6 +1958,15 @@
 			name = cityPickerViewController;
 			sourceTree = "<group>";
 		};
+		15D195451C1D7E48001F286E /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				15D195461C1D7EC8001F286E /* CommondMethods.h */,
+				15D195471C1D7EC8001F286E /* CommondMethods.m */,
+			);
+			name = constants;
+			sourceTree = "<group>";
+		};
 		15ED7DA41BEA1836000E1131 /* STSCropPhoto */ = {
 			isa = PBXGroup;
 			children = (
@@ -2126,6 +2139,7 @@
 			files = (
 				040A0CDE1BABF2E90057F29A /* MJRefreshFooterView.m in Sources */,
 				044B10511BC654F1007E95BF /* YMReplyInputView.m in Sources */,
+				15D195481C1D7EC8001F286E /* CommondMethods.m in Sources */,
 				520EF70D1BC397FC0098EF51 /* YuyueCarTableViewController.m in Sources */,
 				040A0CE61BAC0BC30057F29A /* DOPDropDownMenu.m in Sources */,
 				040A0C6C1BABE80A0057F29A /* UIImageView+HighlightedWebCache.m in Sources */,

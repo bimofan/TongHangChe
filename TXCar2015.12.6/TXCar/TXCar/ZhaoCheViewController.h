@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CommondMethods.h"
 
 @interface ZhaoCheViewController : UIViewController
 @property (nonatomic, copy) NSString * car_type_search;
